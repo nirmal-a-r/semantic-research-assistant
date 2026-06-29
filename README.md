@@ -162,7 +162,3 @@ Released under the MIT License.
 ## 👤 Author
 
 **Nirmal A R**
-
-B.Tech Artificial Intelligence
-
-Building AI systems by understanding the fundamentals—not just assembling libraries.
