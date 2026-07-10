@@ -1,10 +1,10 @@
-# 🔍 Semantic Research Assistant
+# Semantic Research Assistant
 
 > **A production-inspired Hybrid Semantic Retrieval and Extractive Question Answering System built to master modern Natural Language Processing from first principles.**
 
 ---
 
-## 📖 About the Project
+## About the Project
 
 Semantic Research Assistant is an end-to-end Natural Language Processing project that combines classical Information Retrieval techniques with modern Transformer-based language models to build an intelligent document search and question answering system.
 
@@ -14,7 +14,7 @@ This repository is designed as a long-term learning project focused on understan
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Learn modern NLP from the ground up
 * Understand Information Retrieval systems
@@ -26,7 +26,7 @@ This repository is designed as a long-term learning project focused on understan
 
 ---
 
-## 🧠 NLP Concepts Covered
+## NLP Concepts Covered
 
 * Text Preprocessing
 * Tokenization
@@ -48,7 +48,7 @@ This repository is designed as a long-term learning project focused on understan
 
 ---
 
-## 🏗️ System Pipeline
+## System Pipeline
 
 ```
 User Query
@@ -79,7 +79,7 @@ Answer + Evidence + Confidence
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 semantic-research-assistant/
@@ -97,7 +97,7 @@ semantic-research-assistant/
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * Python
 * PyTorch
@@ -113,7 +113,7 @@ semantic-research-assistant/
 
 ---
 
-## 📊 Planned Experiments
+## Planned Experiments
 
 * BM25 vs Dense Retrieval
 * Multiple Embedding Models
@@ -125,7 +125,7 @@ semantic-research-assistant/
 
 ---
 
-## 🚀 Project Status
+## Project Status
 
 **Current Phase**
 
@@ -145,7 +145,7 @@ Upcoming Milestones
 
 ---
 
-## 🎓 Learning Focus
+## Learning Focus
 
 This project prioritizes understanding over implementation speed.
 
@@ -153,12 +153,12 @@ Every component will be built incrementally with detailed experimentation, docum
 
 ---
 
-## 📄 License
+## License
 
 Released under the MIT License.
 
 ---
 
-## 👤 Author
+## Author
 
 **Nirmal A R**
