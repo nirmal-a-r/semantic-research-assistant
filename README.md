@@ -94,8 +94,6 @@ wrong passage the answer span cannot exist in it, so the ceiling is Recall@1, no
 
 ---
 
----
-
 ## Tech Stack
 
 | Library | Role in this pipeline |
