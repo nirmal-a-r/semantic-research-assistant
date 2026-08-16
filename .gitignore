@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+nlpenv/
+.venv/
+venv/
+env/
+
+# Data (regenerable: datasets.load_dataset("squad") + the corpus cells in the notebook)
+data/raw/
+data/processed/
+
+# Fine-tuned checkpoints (~7.9 GB; regenerate by re-running the fine-tuning sections
+# of notebooks/Adaptive_Hybrid_Semantic_Research_Assistant.ipynb)
+models/
+
+# Dashboard build artefacts
+app/dashboard/node_modules/
+app/dashboard/.next/
+app/dashboard/out/
+app/dashboard/.env.local
+
+# Jupyter artefacts
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# TensorBoard logs
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local editor/preview config
+.claude/
+
+# results/ is intentionally NOT ignored - small files, and the single source of
+# truth that scripts/build_dashboard_data.py turns into the deployed dashboard.

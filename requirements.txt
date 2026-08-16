@@ -1,0 +1,15 @@
+datasets>=2.19
+transformers>=4.41
+sentence-transformers>=3.0
+faiss-cpu
+rank_bm25
+evaluate>=0.4
+accelerate
+fastapi
+uvicorn[standard]
+matplotlib
+pandas
+scikit-learn
+tqdm
+nltk
+nbformat

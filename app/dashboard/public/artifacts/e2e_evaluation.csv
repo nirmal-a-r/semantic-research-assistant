@@ -1,0 +1,4 @@
+,exact_match,f1
+RoBERTa-base,71.0,72.33968253968254
+BERT-base-uncased,62.0,67.53690476190475
+DistilBERT-base-uncased,60.0,62.41240093240092

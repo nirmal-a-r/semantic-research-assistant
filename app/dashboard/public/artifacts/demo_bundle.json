@@ -1,0 +1,1993 @@
+[
+  {
+    "question": "Which NFL team represented the AFC at Super Bowl 50?",
+    "topic": "Super Bowl 50",
+    "gold": "Denver Broncos",
+    "gold_answers": [
+      "Denver Broncos"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "Which NFL team represented the AFC at Super Bowl 50?",
+      "Regarding which NFL team represented the AFC at Super Bowl 50?"
+    ],
+    "evidence_doc_id": "doc_18891",
+    "evidence_score": 0.032787,
+    "evidence_text": "Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the \"golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as \"Super Bowl L\"), so that the logo could prominently feature the Arabic numerals 50.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_18891",
+        "score": 0.032787,
+        "text": "Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the \"golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as \"Super Bowl L\"), so that the logo could prominently feature the Arabic numerals 50.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_18913",
+        "score": 0.032258,
+        "text": "As the designated home team in the annual rotation between AFC and NFC teams, the Broncos elected to wear their road white jerseys with matching white pants. Elway stated, \"We've had Super Bowl success in our white uniforms.\" The Broncos last wore matching white jerseys and pants in the Super Bowl in Super Bowl XXXIII, Elway's last game as Denver QB, when they defeated the Atlanta Falcons 34–19. In their only other Super Bowl win in Super Bowl XXXII, Denver wore blue jerseys, which was their primary color at the time. They also lost Super Bowl XXI when they wore white jerseys, but they are 0-4 in Super Bowls when wearing orange jerseys, losing in Super Bowl XII, XXII, XXIV, and XLVIII. The only other AFC champion team to have worn white as the designated home team in the Super Bowl was the Pittsburgh Steelers; they defeated the Seattle Seahawks 21–10 in Super Bowl XL 10 seasons prior. The Broncos' decision to wear white meant the Panthers would wear their standard home uniform: black jerseys with silver pants.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_18892",
+        "score": 0.031746,
+        "text": "The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "Denver Broncos",
+        "answer_start": 177,
+        "answer_end": 191,
+        "start_confidence": 0.871,
+        "end_confidence": 0.9166,
+        "avg_confidence": 0.8938,
+        "latency_ms": 8.1,
+        "answer_length_words": 2,
+        "context_length_words": 124,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "Denver Broncos",
+        "answer_start": 177,
+        "answer_end": 191,
+        "start_confidence": 0.8169,
+        "end_confidence": 0.8239,
+        "avg_confidence": 0.8204,
+        "latency_ms": 7.5,
+        "answer_length_words": 2,
+        "context_length_words": 124,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "Denver Broncos",
+        "answer_start": 177,
+        "answer_end": 191,
+        "start_confidence": 0.521,
+        "end_confidence": 0.5611,
+        "avg_confidence": 0.5411,
+        "latency_ms": 4.0,
+        "answer_length_words": 2,
+        "context_length_words": 124,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "What was Maria Curie the first female recipient of?",
+    "topic": "Warsaw",
+    "gold": "Nobel Prize",
+    "gold_answers": [
+      "Nobel Prize"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "What was Maria Curie the first female recipient of?",
+      "Regarding what was Maria Curie the first female recipient of?"
+    ],
+    "evidence_doc_id": "doc_18945",
+    "evidence_score": 0.032522,
+    "evidence_text": "One of the most famous people born in Warsaw was Maria Skłodowska-Curie, who achieved international recognition for her research on radioactivity and was the first female recipient of the Nobel Prize. Famous musicians include Władysław Szpilman and Frédéric Chopin. Though Chopin was born in the village of Żelazowa Wola, about 60 km (37 mi) from Warsaw, he moved to the city with his family when he was seven months old. Casimir Pulaski, a Polish general and hero of the American Revolutionary War, was born here in 1745.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_18945",
+        "score": 0.032522,
+        "text": "One of the most famous people born in Warsaw was Maria Skłodowska-Curie, who achieved international recognition for her research on radioactivity and was the first female recipient of the Nobel Prize. Famous musicians include Władysław Szpilman and Frédéric Chopin. Though Chopin was born in the village of Żelazowa Wola, about 60 km (37 mi) from Warsaw, he moved to the city with his family when he was seven months old. Casimir Pulaski, a Polish general and hero of the American Revolutionary War, was born here in 1745.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_8202",
+        "score": 0.032522,
+        "text": "Maria Deraismes was initiated into Freemasonry in 1882, then resigned to allow her lodge to rejoin their Grand Lodge. Having failed to achieve acceptance from any masonic governing body, she and Georges Martin started a mixed masonic lodge that actually worked masonic ritual. Annie Besant spread the phenomenon to the English speaking world. Disagreements over ritual led to the formation of exclusively female bodies of Freemasons in England, which spread to other countries. Meanwhile, the French had re-invented Adoption as an all-female lodge in 1901, only to cast it aside again in 1935. The lodges, however, continued to meet, which gave rise, in 1959, to a body of women practising continental Freemasonry.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_1320",
+        "score": 0.031498,
+        "text": "Jessica Sanchez received the fewest number of votes during the Top 7 week, and the judges decided to use their \"save\" option on her, making her the first female recipient of the save. The following week, unlike previous seasons, Colton Dixon was the only contestant sent home. Sanchez later made the final two, the first season where a recipient of the save reached the finale.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "Nobel Prize",
+        "answer_start": 188,
+        "answer_end": 199,
+        "start_confidence": 0.6115,
+        "end_confidence": 0.9938,
+        "avg_confidence": 0.8026,
+        "latency_ms": 8.3,
+        "answer_length_words": 2,
+        "context_length_words": 87,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "Nobel Prize",
+        "answer_start": 188,
+        "answer_end": 199,
+        "start_confidence": 0.767,
+        "end_confidence": 0.9685,
+        "avg_confidence": 0.8678,
+        "latency_ms": 9.9,
+        "answer_length_words": 2,
+        "context_length_words": 87,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "Nobel Prize",
+        "answer_start": 188,
+        "answer_end": 199,
+        "start_confidence": 0.6214,
+        "end_confidence": 0.9813,
+        "avg_confidence": 0.8013,
+        "latency_ms": 4.3,
+        "answer_length_words": 2,
+        "context_length_words": 87,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "In what country is Normandy located?",
+    "topic": "Normans",
+    "gold": "France",
+    "gold_answers": [
+      "France"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "In what country is Normandy located?",
+      "Regarding in what country is Normandy located?"
+    ],
+    "evidence_doc_id": "doc_19030",
+    "evidence_score": 0.032787,
+    "evidence_text": "The customary law of Normandy was developed between the 10th and 13th centuries and survives today through the legal systems of Jersey and Guernsey in the Channel Islands. Norman customary law was transcribed in two customaries in Latin by two judges for use by them and their colleagues: These are the Très ancien coutumier (Very ancient customary), authored between 1200 and 1245; and the Grand coutumier de Normandie (Great customary of Normandy, originally Summa de legibus Normanniae in curia laïcali), authored between 1235 and 1245.",
+    "retrieval_hit": false,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19030",
+        "score": 0.032787,
+        "text": "The customary law of Normandy was developed between the 10th and 13th centuries and survives today through the legal systems of Jersey and Guernsey in the Channel Islands. Norman customary law was transcribed in two customaries in Latin by two judges for use by them and their colleagues: These are the Très ancien coutumier (Very ancient customary), authored between 1200 and 1245; and the Grand coutumier de Normandie (Great customary of Normandy, originally Summa de legibus Normanniae in curia laïcali), authored between 1235 and 1245.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_5258",
+        "score": 0.032258,
+        "text": "Under the Capetian dynasty France slowly began to expand its authority over the nobility, growing out of the Île-de-France to exert control over more of the country in the 11th and 12th centuries. They faced a powerful rival in the Dukes of Normandy, who in 1066 under William the Conqueror (duke 1035–1087), conquered England (r. 1066–87) and created a cross-channel empire that lasted, in various forms, throughout the rest of the Middle Ages. Normans also settled in Sicily and southern Italy, when Robert Guiscard (d. 1085) landed there in 1059 and established a duchy that later became the Kingdom of Sicily. Under the Angevin dynasty of Henry II (r. 1154–89) and his son Richard I (r. 1189–99), the kings of England ruled over England and large areas of France,[W] brought to the family by Henry II's marriage to Eleanor of Aquitaine (d. 1204), heiress to much of southern France.[X] Richard's younger brother John (r. 1199–1216) lost Normandy and the rest of the northern French possessions in 1204 to the French King Philip II Augustus (r. 1180–1223). This led to dissension among the English nobility, while John's financial exactions to pay for his unsuccessful attempts to regain Normandy led in 1215 to Magna Carta, a charter that confirmed the rights and privileges of free men in England. Under Henry III (r. 1216–72), John's son, further concessions were made to the nobility, and royal power was diminished. The French monarchy continued to make gains against the nobility during the late 12th and 13th centuries, bringing more territories within the kingdom under their personal rule and centralising the royal administration. Under Louis IX (r. 1226–70), royal prestige rose to new heights as Louis served as a mediator for most of Europe.[Y]",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_18997",
+        "score": 0.03125,
+        "text": "In the course of the 10th century, the initially destructive incursions of Norse war bands into the rivers of France evolved into more permanent encampments that included local women and personal property. The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was situated in the former Frankish kingdom of Neustria. The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions. The area corresponded to the northern part of present-day Upper Normandy down to the river Seine, but the Duchy would eventually extend west beyond the Seine. The territory was roughly equivalent to the old province of Rouen, and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the former Gallia Lugdunensis).",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "Channel Islands",
+        "answer_start": 155,
+        "answer_end": 170,
+        "start_confidence": 0.4512,
+        "end_confidence": 0.7153,
+        "avg_confidence": 0.5832,
+        "latency_ms": 7.4,
+        "answer_length_words": 2,
+        "context_length_words": 85,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "",
+        "answer_start": 0,
+        "answer_end": 0,
+        "start_confidence": 0.3727,
+        "end_confidence": 0.6002,
+        "avg_confidence": 0.4865,
+        "latency_ms": 6.6,
+        "answer_length_words": 0,
+        "context_length_words": 85,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "the Channel Islands",
+        "answer_start": 151,
+        "answer_end": 170,
+        "start_confidence": 0.3987,
+        "end_confidence": 0.6615,
+        "avg_confidence": 0.5301,
+        "latency_ms": 3.4,
+        "answer_length_words": 3,
+        "context_length_words": 85,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "In what year was Nikola Tesla born? ",
+    "topic": "Nikola Tesla",
+    "gold": "1856",
+    "gold_answers": [
+      "1856"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "In what year was Nikola Tesla born? ",
+      "Regarding in what year was Nikola Tesla born? "
+    ],
+    "evidence_doc_id": "doc_19043",
+    "evidence_score": 0.032787,
+    "evidence_text": "Tesla was born on 10 July [O.S. 28 June] 1856 into a Serb family in the village of Smiljan, Austrian Empire (modern-day Croatia). His father, Milutin Tesla, was a Serbian Orthodox priest. Tesla's mother, Đuka Tesla (née Mandić), whose father was also an Orthodox priest,:10 had a talent for making home craft tools, mechanical appliances, and the ability to memorize Serbian epic poems. Đuka had never received a formal education. Nikola credited his eidetic memory and creative abilities to his mother's genetics and influence. Tesla's progenitors were from western Serbia, near Montenegro.:12",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19043",
+        "score": 0.032787,
+        "text": "Tesla was born on 10 July [O.S. 28 June] 1856 into a Serb family in the village of Smiljan, Austrian Empire (modern-day Croatia). His father, Milutin Tesla, was a Serbian Orthodox priest. Tesla's mother, Đuka Tesla (née Mandić), whose father was also an Orthodox priest,:10 had a talent for making home craft tools, mechanical appliances, and the ability to memorize Serbian epic poems. Đuka had never received a formal education. Nikola credited his eidetic memory and creative abilities to his mother's genetics and influence. Tesla's progenitors were from western Serbia, near Montenegro.:12",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19106",
+        "score": 0.032258,
+        "text": "In 1952, following pressure from Tesla's nephew, Sava Kosanović, Tesla's entire estate was shipped to Belgrade in 80 trunks marked N.T. In 1957, Kosanović's secretary Charlotte Muzar transported Tesla's ashes from the United States to Belgrade. The ashes are displayed in a gold-plated sphere on a marble pedestal in the Nikola Tesla Museum.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19039",
+        "score": 0.031498,
+        "text": "Nikola Tesla (Serbian Cyrillic: Никола Тесла; 10 July 1856 – 7 January 1943) was a Serbian American inventor, electrical engineer, mechanical engineer, physicist, and futurist best known for his contributions to the design of the modern alternating current (AC) electricity supply system.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "1856",
+        "answer_start": 41,
+        "answer_end": 45,
+        "start_confidence": 0.9933,
+        "end_confidence": 0.9975,
+        "avg_confidence": 0.9954,
+        "latency_ms": 8.7,
+        "answer_length_words": 1,
+        "context_length_words": 92,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "1856",
+        "answer_start": 41,
+        "answer_end": 45,
+        "start_confidence": 0.9973,
+        "end_confidence": 0.997,
+        "avg_confidence": 0.9972,
+        "latency_ms": 8.0,
+        "answer_length_words": 1,
+        "context_length_words": 92,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "1856",
+        "answer_start": 41,
+        "answer_end": 45,
+        "start_confidence": 0.9988,
+        "end_confidence": 0.9983,
+        "avg_confidence": 0.9985,
+        "latency_ms": 3.9,
+        "answer_length_words": 1,
+        "context_length_words": 92,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+    "topic": "Computational complexity theory",
+    "gold": "Computational complexity theory",
+    "gold_answers": [
+      "Computational complexity theory"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+      "Regarding what branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?"
+    ],
+    "evidence_doc_id": "doc_19131",
+    "evidence_score": 0.032787,
+    "evidence_text": "Computational complexity theory is a branch of the theory of computation in theoretical computer science that focuses on classifying computational problems according to their inherent difficulty, and relating those classes to each other. A computational problem is understood to be a task that is in principle amenable to being solved by a computer, which is equivalent to stating that the problem may be solved by mechanical application of mathematical steps, such as an algorithm.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19131",
+        "score": 0.032787,
+        "text": "Computational complexity theory is a branch of the theory of computation in theoretical computer science that focuses on classifying computational problems according to their inherent difficulty, and relating those classes to each other. A computational problem is understood to be a task that is in principle amenable to being solved by a computer, which is equivalent to stating that the problem may be solved by mechanical application of mathematical steps, such as an algorithm.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19133",
+        "score": 0.032258,
+        "text": "Closely related fields in theoretical computer science are analysis of algorithms and computability theory. A key distinction between analysis of algorithms and computational complexity theory is that the former is devoted to analyzing the amount of resources needed by a particular algorithm to solve a problem, whereas the latter asks a more general question about all possible algorithms that could be used to solve the same problem. More precisely, it tries to classify problems that can or cannot be solved with appropriately restricted resources. In turn, imposing restrictions on the available resources is what distinguishes computational complexity from computability theory: the latter theory asks what kind of problems can, in principle, be solved algorithmically.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_11654",
+        "score": 0.031746,
+        "text": "Computer science, built upon a foundation of theoretical linguistics, discrete mathematics, and electrical engineering, studies the nature and limits of computation. Subfields include computability, computational complexity, database design, computer networking, artificial intelligence, and the design of computer hardware. One area in which advances in computing have contributed to more general scientific development is by facilitating large-scale archiving of scientific data. Contemporary computer science typically distinguishes itself by emphasising mathematical 'theory' in contrast to the practical emphasis of software engineering.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "Computational complexity theory",
+        "answer_start": 0,
+        "answer_end": 31,
+        "start_confidence": 0.9948,
+        "end_confidence": 0.9948,
+        "avg_confidence": 0.9948,
+        "latency_ms": 7.0,
+        "answer_length_words": 3,
+        "context_length_words": 74,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "Computational complexity theory",
+        "answer_start": 0,
+        "answer_end": 31,
+        "start_confidence": 0.9756,
+        "end_confidence": 0.977,
+        "avg_confidence": 0.9763,
+        "latency_ms": 7.4,
+        "answer_length_words": 3,
+        "context_length_words": 74,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "Computational complexity theory",
+        "answer_start": 0,
+        "answer_end": 31,
+        "start_confidence": 0.905,
+        "end_confidence": 0.8057,
+        "avg_confidence": 0.8553,
+        "latency_ms": 3.4,
+        "answer_length_words": 3,
+        "context_length_words": 74,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "What is a course of study called?",
+    "topic": "Teacher",
+    "gold": "curriculum",
+    "gold_answers": [
+      "curriculum",
+      "the curriculum."
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "What is a course of study called?",
+      "a course of study called definition?",
+      "Regarding what is a course of study called?"
+    ],
+    "evidence_doc_id": "doc_5705",
+    "evidence_score": 0.04918,
+    "evidence_text": "In addition, this Introductory Course gives students more information to complement general biology or science training. It also has two different parts: Part I is an introduction to the basic principles of immunology and Part II is a clinically-oriented lecture series. On the other hand, the Advanced Course is another course for those who are willing to expand or update their understanding of immunology. It is advised for students who want to attend the Advanced Course to have a background of the principles of immunology. Most schools require students to take electives in other to complete their degrees. A Master’s degree requires two years of study following the attainment of a bachelor's degree. For a doctoral programme it is required to take two additional years of study.",
+    "retrieval_hit": false,
+    "top_chunks": [
+      {
+        "doc_id": "doc_5705",
+        "score": 0.04918,
+        "text": "In addition, this Introductory Course gives students more information to complement general biology or science training. It also has two different parts: Part I is an introduction to the basic principles of immunology and Part II is a clinically-oriented lecture series. On the other hand, the Advanced Course is another course for those who are willing to expand or update their understanding of immunology. It is advised for students who want to attend the Advanced Course to have a background of the principles of immunology. Most schools require students to take electives in other to complete their degrees. A Master’s degree requires two years of study following the attainment of a bachelor's degree. For a doctoral programme it is required to take two additional years of study.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_14894",
+        "score": 0.048131,
+        "text": "However, in English, the term madrasah usually refers to the specifically Islamic institutions. A typical Islamic school usually offers two courses of study: a ḥifẓ course teaching memorization of the Qur'an (the person who commits the entire Qurʼan to memory is called a ḥāfiẓ); and an ʻālim course leading the candidate to become an accepted scholar in the community. A regular curriculum includes courses in Arabic, tafsir (Qur'anic interpretation), sharīʻah (Islamic law), hadiths (recorded sayings and deeds of Muhammad), mantiq (logic), and Muslim history. In the Ottoman Empire, during the Early Modern Period, the study of hadiths was introduced by Süleyman I. Depending on the educational demands, some madaris also offer additional advanced courses in Arabic literature, English and other foreign languages, as well as science and world history. Ottoman madaris along with religious teachings also taught \"styles of writing, grammary, syntax, poetry, composition, natural sciences, political sciences, and etiquette.\"",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19179",
+        "score": 0.047371,
+        "text": "The role of teacher is often formal and ongoing, carried out at a school or other place of formal education. In many countries, a person who wishes to become a teacher must first obtain specified professional qualifications or credentials from a university or college. These professional qualifications may include the study of pedagogy, the science of teaching. Teachers, like other professionals, may have to continue their education after they qualify, a process known as continuing professional development. Teachers may use a lesson plan to facilitate student learning, providing a course of study which is called the curriculum.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "Introductory Course gives students more information to complement general biology or science training. It also has two different parts: Part I is an introduction to the basic principles of immunology and Part II is a clinically-oriented lecture series. On the other hand, the Advanced Course",
+        "answer_start": 18,
+        "answer_end": 309,
+        "start_confidence": 0.5297,
+        "end_confidence": 0.5962,
+        "avg_confidence": 0.5629,
+        "latency_ms": 7.9,
+        "answer_length_words": 45,
+        "context_length_words": 127,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "the Advanced Course",
+        "answer_start": 290,
+        "answer_end": 309,
+        "start_confidence": 0.4588,
+        "end_confidence": 0.7162,
+        "avg_confidence": 0.5875,
+        "latency_ms": 8.0,
+        "answer_length_words": 3,
+        "context_length_words": 127,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "Advanced Course",
+        "answer_start": 294,
+        "answer_end": 309,
+        "start_confidence": 0.6894,
+        "end_confidence": 0.6074,
+        "avg_confidence": 0.6484,
+        "latency_ms": 3.9,
+        "answer_length_words": 2,
+        "context_length_words": 127,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "Of what nationality was Martin Luther?",
+    "topic": "Martin Luther",
+    "gold": "German",
+    "gold_answers": [
+      "German"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "Of what nationality was Martin Luther?",
+      "Regarding of what nationality was Martin Luther?"
+    ],
+    "evidence_doc_id": "doc_19240",
+    "evidence_score": 0.032787,
+    "evidence_text": "Martin Luther was born to Hans Luder (or Ludher, later Luther) and his wife Margarethe (née Lindemann) on 10 November 1483 in Eisleben, Saxony, then part of the Holy Roman Empire. He was baptized as a Catholic the next morning on the feast day of St. Martin of Tours. His family moved to Mansfeld in 1484, where his father was a leaseholder of copper mines and smelters and served as one of four citizen representatives on the local council. The religious scholar Martin Marty describes Luther's mother as a hard-working woman of \"trading-class stock and middling means\" and notes that Luther's enemies later wrongly described her as a whore and bath attendant. He had several brothers and sisters, and is known to have been close to one of them, Jacob. Hans Luther was ambitious for himself and his family, and he was determined to see Martin, his eldest son, become a lawyer. He sent Martin to Latin schools in Mansfeld, then Magdeburg in 1497, where he attended a school operated by a lay group called the Brethren of the Common Life, and Eisenach in 1498. The three schools focused on the so-called \"trivium\": grammar, rhetoric, and logic. Luther later compared his education there to purgatory and hell.",
+    "retrieval_hit": false,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19240",
+        "score": 0.032787,
+        "text": "Martin Luther was born to Hans Luder (or Ludher, later Luther) and his wife Margarethe (née Lindemann) on 10 November 1483 in Eisleben, Saxony, then part of the Holy Roman Empire. He was baptized as a Catholic the next morning on the feast day of St. Martin of Tours. His family moved to Mansfeld in 1484, where his father was a leaseholder of copper mines and smelters and served as one of four citizen representatives on the local council. The religious scholar Martin Marty describes Luther's mother as a hard-working woman of \"trading-class stock and middling means\" and notes that Luther's enemies later wrongly described her as a whore and bath attendant. He had several brothers and sisters, and is known to have been close to one of them, Jacob. Hans Luther was ambitious for himself and his family, and he was determined to see Martin, his eldest son, become a lawyer. He sent Martin to Latin schools in Mansfeld, then Magdeburg in 1497, where he attended a school operated by a lay group called the Brethren of the Common Life, and Eisenach in 1498. The three schools focused on the so-called \"trivium\": grammar, rhetoric, and logic. Luther later compared his education there to purgatory and hell.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19319",
+        "score": 0.032258,
+        "text": "Luther spoke out against the Jews in Saxony, Brandenburg, and Silesia. Josel of Rosheim, the Jewish spokesman who tried to help the Jews of Saxony in 1537, later blamed their plight on \"that priest whose name was Martin Luther—may his body and soul be bound up in hell!—who wrote and issued many heretical books in which he said that whoever would help the Jews was doomed to perdition.\" Josel asked the city of Strasbourg to forbid the sale of Luther's anti-Jewish works: they refused initially, but did so when a Lutheran pastor in Hochfelden used a sermon to urge his parishioners to murder Jews. Luther's influence persisted after his death. Throughout the 1580s, riots led to the expulsion of Jews from several German Lutheran states.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_10542",
+        "score": 0.031498,
+        "text": "Martin Luther, a German monk, started the German Reformation by posting 95 theses on the castle church of Wittenberg on October 31, 1517. The immediate provocation spurring this act was Pope Leo X’s renewal of the indulgence for the building of the new St. Peter's Basilica in 1514. Luther was challenged to recant his heresy at the Diet of Worms in 1521. When he refused, he was placed under the ban of the Empire by Charles V. Receiving the protection of Frederick the Wise, he was then able to translate the Bible into German.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "Catholic",
+        "answer_start": 201,
+        "answer_end": 209,
+        "start_confidence": 0.7209,
+        "end_confidence": 0.8025,
+        "avg_confidence": 0.7617,
+        "latency_ms": 12.4,
+        "answer_length_words": 1,
+        "context_length_words": 207,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "Saxony",
+        "answer_start": 136,
+        "answer_end": 142,
+        "start_confidence": 0.5043,
+        "end_confidence": 0.5801,
+        "avg_confidence": 0.5422,
+        "latency_ms": 11.2,
+        "answer_length_words": 1,
+        "context_length_words": 207,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "Catholic",
+        "answer_start": 201,
+        "answer_end": 209,
+        "start_confidence": 0.7171,
+        "end_confidence": 0.6615,
+        "avg_confidence": 0.6893,
+        "latency_ms": 5.6,
+        "answer_length_words": 1,
+        "context_length_words": 207,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "What is Southern California often abbreviated as?",
+    "topic": "Southern California",
+    "gold": "SoCal",
+    "gold_answers": [
+      "SoCal"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "What is Southern California often abbreviated as?",
+      "Southern California often abbreviated as definition?",
+      "Regarding what is Southern California often abbreviated as?"
+    ],
+    "evidence_doc_id": "doc_19335",
+    "evidence_score": 0.04918,
+    "evidence_text": "Southern California, often abbreviated SoCal, is a geographic and cultural region that generally comprises California's southernmost 10 counties. The region is traditionally described as \"eight counties\", based on demographics and economic ties: Imperial, Los Angeles, Orange, Riverside, San Bernardino, San Diego, Santa Barbara, and Ventura. The more extensive 10-county definition, including Kern and San Luis Obispo counties, is also used based on historical political divisions. Southern California is a major economic center for the state of California and the United States.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19335",
+        "score": 0.04918,
+        "text": "Southern California, often abbreviated SoCal, is a geographic and cultural region that generally comprises California's southernmost 10 counties. The region is traditionally described as \"eight counties\", based on demographics and economic ties: Imperial, Los Angeles, Orange, Riverside, San Bernardino, San Diego, Santa Barbara, and Ventura. The more extensive 10-county definition, including Kern and San Luis Obispo counties, is also used based on historical political divisions. Southern California is a major economic center for the state of California and the United States.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19344",
+        "score": 0.048387,
+        "text": "\"Southern California\" is not a formal geographic designation, and definitions of what constitutes southern California vary. Geographically, California's north-south midway point lies at exactly 37° 9' 58.23\" latitude, around 11 miles (18 km) south of San Jose; however, this does not coincide with popular use of the term. When the state is divided into two areas (northern and southern California), the term \"southern California\" usually refers to the ten southern-most counties of the state. This definition coincides neatly with the county lines at 35° 47′ 28″ north latitude, which form the northern borders of San Luis Obispo, Kern, and San Bernardino counties. Another definition for southern California uses Point Conception and the Tehachapi Mountains as the northern boundary.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19355",
+        "score": 0.047371,
+        "text": "Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "SoCal",
+        "answer_start": 39,
+        "answer_end": 44,
+        "start_confidence": 0.9918,
+        "end_confidence": 0.9919,
+        "avg_confidence": 0.9919,
+        "latency_ms": 6.9,
+        "answer_length_words": 1,
+        "context_length_words": 81,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "SoCal",
+        "answer_start": 39,
+        "answer_end": 44,
+        "start_confidence": 0.9959,
+        "end_confidence": 0.9953,
+        "avg_confidence": 0.9956,
+        "latency_ms": 6.2,
+        "answer_length_words": 1,
+        "context_length_words": 81,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "SoCal",
+        "answer_start": 39,
+        "answer_end": 44,
+        "start_confidence": 0.9886,
+        "end_confidence": 0.9862,
+        "avg_confidence": 0.9874,
+        "latency_ms": 3.3,
+        "answer_length_words": 1,
+        "context_length_words": 81,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "What company was formed by the merger of Sky Television and British Satellite Broadcasting?",
+    "topic": "Sky (United Kingdom)",
+    "gold": "BSkyB",
+    "gold_answers": [
+      "BSkyB"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "What company was formed by the merger of Sky Television and British Satellite Broadcasting?",
+      "Regarding what company was formed by the merger of Sky Television and British Satellite Broadcasting?"
+    ],
+    "evidence_doc_id": "doc_19374",
+    "evidence_score": 0.032787,
+    "evidence_text": "Formed in November 1990 by the equal merger of Sky Television and British Satellite Broadcasting, BSkyB became the UK's largest digital subscription television company. Following BSkyB's 2014 acquisition of Sky Italia and a majority 90.04% interest in Sky Deutschland in November 2014, its holding company British Sky Broadcasting Group plc changed its name to Sky plc. The United Kingdom operations also changed the company name from British Sky Broadcasting Limited to Sky UK Limited, still trading as Sky.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19374",
+        "score": 0.032787,
+        "text": "Formed in November 1990 by the equal merger of Sky Television and British Satellite Broadcasting, BSkyB became the UK's largest digital subscription television company. Following BSkyB's 2014 acquisition of Sky Italia and a majority 90.04% interest in Sky Deutschland in November 2014, its holding company British Sky Broadcasting Group plc changed its name to Sky plc. The United Kingdom operations also changed the company name from British Sky Broadcasting Limited to Sky UK Limited, still trading as Sky.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19382",
+        "score": 0.032258,
+        "text": "Sky UK Limited (formerly British Sky Broadcasting or BSkyB) is a British telecommunications company which serves the United Kingdom. Sky provides television and broadband internet services and fixed line telephone services to consumers and businesses in the United Kingdom. It is the UK's largest pay-TV broadcaster with 11 million customers as of 2015. It was the UK's most popular digital TV service until it was overtaken by Freeview in April 2007. Its corporate headquarters are based in Isleworth.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19385",
+        "score": 0.031746,
+        "text": "When Sky Digital was launched in 1998 the new service used the Astra 2A satellite which was located at the 28.5°E orbital position, unlike the analogue service which was broadcast from 19.2°E. This was subsequently followed by more Astra satellites as well as Eutelsat's Eurobird 1 (now Eutelsat 33C) at 28.5°E), enabled the company to launch a new all-digital service, Sky, with the potential to carry hundreds of television and radio channels. The old position was shared with broadcasters from several European countries, while the new position at 28.5°E came to be used almost exclusively for channels that broadcast to the United Kingdom.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "BSkyB",
+        "answer_start": 98,
+        "answer_end": 103,
+        "start_confidence": 0.9352,
+        "end_confidence": 0.9427,
+        "avg_confidence": 0.9389,
+        "latency_ms": 7.0,
+        "answer_length_words": 1,
+        "context_length_words": 78,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "BSkyB",
+        "answer_start": 98,
+        "answer_end": 103,
+        "start_confidence": 0.9915,
+        "end_confidence": 0.9857,
+        "avg_confidence": 0.9886,
+        "latency_ms": 6.3,
+        "answer_length_words": 1,
+        "context_length_words": 78,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "BSkyB",
+        "answer_start": 98,
+        "answer_end": 103,
+        "start_confidence": 0.8619,
+        "end_confidence": 0.9494,
+        "avg_confidence": 0.9056,
+        "latency_ms": 3.3,
+        "answer_length_words": 1,
+        "context_length_words": 78,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "What kind of economy does Victoria have?",
+    "topic": "Victoria (Australia)",
+    "gold": "highly diversified",
+    "gold_answers": [
+      "highly diversified",
+      "diversified"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "What kind of economy does Victoria have?",
+      "Regarding what kind of economy does Victoria have?"
+    ],
+    "evidence_doc_id": "doc_19396",
+    "evidence_score": 0.032787,
+    "evidence_text": "The economy of Victoria is highly diversified: service sectors including financial and property services, health, education, wholesale, retail, hospitality and manufacturing constitute the majority of employment. Victoria's total gross state product (GSP) is ranked second in Australia, although Victoria is ranked fourth in terms of GSP per capita because of its limited mining activity. Culturally, Melbourne is home to a number of museums, art galleries and theatres and is also described as the \"sporting capital of Australia\". The Melbourne Cricket Ground is the largest stadium in Australia, and the host of the 1956 Summer Olympics and the 2006 Commonwealth Games. The ground is also considered the \"spiritual home\" of Australian cricket and Australian rules football, and hosts the grand final of the Australian Football League (AFL) each year, usually drawing crowds of over 95,000 people. Victoria includes eight public universities, with the oldest, the University of Melbourne, having been founded in 1853.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19396",
+        "score": 0.032787,
+        "text": "The economy of Victoria is highly diversified: service sectors including financial and property services, health, education, wholesale, retail, hospitality and manufacturing constitute the majority of employment. Victoria's total gross state product (GSP) is ranked second in Australia, although Victoria is ranked fourth in terms of GSP per capita because of its limited mining activity. Culturally, Melbourne is home to a number of museums, art galleries and theatres and is also described as the \"sporting capital of Australia\". The Melbourne Cricket Ground is the largest stadium in Australia, and the host of the 1956 Summer Olympics and the 2006 Commonwealth Games. The ground is also considered the \"spiritual home\" of Australian cricket and Australian rules football, and hosts the grand final of the Australian Football League (AFL) each year, usually drawing crowds of over 95,000 people. Victoria includes eight public universities, with the oldest, the University of Melbourne, having been founded in 1853.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_8151",
+        "score": 0.032002,
+        "text": "Victoria wrote to her uncle Leopold, whom Victoria considered her \"best and kindest adviser\", to thank him \"for the prospect of great happiness you have contributed to give me, in the person of dear Albert ... He possesses every quality that could be desired to render me perfectly happy. He is so sensible, so kind, and so good, and so amiable too. He has besides the most pleasing and delightful exterior and appearance you can possibly see.\" However at 17, Victoria, though interested in Albert, was not yet ready to marry. The parties did not undertake a formal engagement, but assumed that the match would take place in due time.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19401",
+        "score": 0.031498,
+        "text": "Victoria (abbreviated as Vic) is a state in the south-east of Australia. Victoria is Australia's most densely populated state and its second-most populous state overall. Most of its population is concentrated in the area surrounding Port Phillip Bay, which includes the metropolitan area of its capital and largest city, Melbourne, which is Australia's second-largest city. Geographically the smallest state on the Australian mainland, Victoria is bordered by Bass Strait and Tasmania to the south,[note 1] New South Wales to the north, the Tasman Sea to the east, and South Australia to the west.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "highly diversified",
+        "answer_start": 27,
+        "answer_end": 45,
+        "start_confidence": 0.8115,
+        "end_confidence": 0.9575,
+        "avg_confidence": 0.8845,
+        "latency_ms": 8.9,
+        "answer_length_words": 2,
+        "context_length_words": 152,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "highly diversified",
+        "answer_start": 27,
+        "answer_end": 45,
+        "start_confidence": 0.5178,
+        "end_confidence": 0.7684,
+        "avg_confidence": 0.6431,
+        "latency_ms": 9.1,
+        "answer_length_words": 2,
+        "context_length_words": 152,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "highly diversified",
+        "answer_start": 27,
+        "answer_end": 45,
+        "start_confidence": 0.606,
+        "end_confidence": 0.973,
+        "avg_confidence": 0.7895,
+        "latency_ms": 4.5,
+        "answer_length_words": 2,
+        "context_length_words": 152,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "Where was France's Huguenot population largely centered?",
+    "topic": "Huguenot",
+    "gold": "southern and central parts of France,",
+    "gold_answers": [
+      "southern and central parts of France,",
+      "about one-eighth",
+      "the southern and central parts of France"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "Where was France's Huguenot population largely centered?",
+      "Regarding where was France's Huguenot population largely centered?"
+    ],
+    "evidence_doc_id": "doc_19432",
+    "evidence_score": 0.032787,
+    "evidence_text": "Approximately one million Protestants in modern France represent some 2% of its population. Most are concentrated in Alsace in northeast France and the Cévennes mountain region in the south, who still regard themselves as Huguenots to this day.[citation needed] A diaspora of French Australians still considers itself Huguenot, even after centuries of exile. Long integrated into Australian society, it is encouraged by the Huguenot Society of Australia to embrace and conserve its cultural heritage, aided by the Society's genealogical research services.",
+    "retrieval_hit": false,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19432",
+        "score": 0.032787,
+        "text": "Approximately one million Protestants in modern France represent some 2% of its population. Most are concentrated in Alsace in northeast France and the Cévennes mountain region in the south, who still regard themselves as Huguenots to this day.[citation needed] A diaspora of French Australians still considers itself Huguenot, even after centuries of exile. Long integrated into Australian society, it is encouraged by the Huguenot Society of Australia to embrace and conserve its cultural heritage, aided by the Society's genealogical research services.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19438",
+        "score": 0.032258,
+        "text": "The exodus of Huguenots from France created a brain drain, as many Huguenots had occupied important places in society. The kingdom did not fully recover for years. The French crown's refusal to allow non-Catholics to settle in New France may help to explain that colony's slow rate of population growth compared to that of the neighbouring British colonies, which opened settlement to religious dissenters. By the time of the French and Indian War (the North American front of the Seven Years' War), a sizeable population of Huguenot descent lived in the British colonies, and many participated in the British defeat of New France in 1759-60.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19434",
+        "score": 0.031746,
+        "text": "After the revocation of the Edict of Nantes, the Dutch Republic received the largest group of Huguenot refugees, an estimated total of 75,000 to 100,000 people. Amongst them were 200 clergy. Many came from the region of the Cévennes, for instance, the village of Fraissinet-de-Lozère. This was a huge influx as the entire population of the Dutch Republic amounted to ca. 2 million at that time. Around 1700, it is estimated that nearly 25% of the Amsterdam population was Huguenot.[citation needed] In 1705, Amsterdam and the area of West Frisia were the first areas to provide full citizens rights to Huguenot immigrants, followed by the Dutch Republic in 1715. Huguenots intermarried with Dutch from the outset.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "Alsace",
+        "answer_start": 117,
+        "answer_end": 123,
+        "start_confidence": 0.891,
+        "end_confidence": 0.3964,
+        "avg_confidence": 0.6437,
+        "latency_ms": 8.0,
+        "answer_length_words": 1,
+        "context_length_words": 81,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "Alsace in northeast France",
+        "answer_start": 117,
+        "answer_end": 143,
+        "start_confidence": 0.822,
+        "end_confidence": 0.4291,
+        "avg_confidence": 0.6255,
+        "latency_ms": 6.5,
+        "answer_length_words": 4,
+        "context_length_words": 81,
+        "exact_match": false,
+        "token_f1": 20.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "Alsace",
+        "answer_start": 117,
+        "answer_end": 123,
+        "start_confidence": 0.9372,
+        "end_confidence": 0.9218,
+        "avg_confidence": 0.9295,
+        "latency_ms": 3.4,
+        "answer_length_words": 1,
+        "context_length_words": 81,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "Along with geothermal and nuclear, what is a notable non-combustion heat source?",
+    "topic": "Steam engine",
+    "gold": "solar",
+    "gold_answers": [
+      "solar",
+      "solar power",
+      "solar power, nuclear power or geothermal energy"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "Along with geothermal and nuclear, what is a notable non-combustion heat source?",
+      "Regarding along with geothermal and nuclear, what is a notable non-combustion heat source?"
+    ],
+    "evidence_doc_id": "doc_19476",
+    "evidence_score": 0.032787,
+    "evidence_text": "The heat required for boiling the water and supplying the steam can be derived from various sources, most commonly from burning combustible materials with an appropriate supply of air in a closed space (called variously combustion chamber, firebox). In some cases the heat source is a nuclear reactor, geothermal energy, solar energy or waste heat from an internal combustion engine or industrial process. In the case of model or toy steam engines, the heat source can be an electric heating element.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19476",
+        "score": 0.032787,
+        "text": "The heat required for boiling the water and supplying the steam can be derived from various sources, most commonly from burning combustible materials with an appropriate supply of air in a closed space (called variously combustion chamber, firebox). In some cases the heat source is a nuclear reactor, geothermal energy, solar energy or waste heat from an internal combustion engine or industrial process. In the case of model or toy steam engines, the heat source can be an electric heating element.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19516",
+        "score": 0.032258,
+        "text": "Highly concentrated sources of oxygen promote rapid combustion. Fire and explosion hazards exist when concentrated oxidants and fuels are brought into close proximity; an ignition event, such as heat or a spark, is needed to trigger combustion. Oxygen is the oxidant, not the fuel, but nevertheless the source of most of the chemical energy released in combustion. Combustion hazards also apply to compounds of oxygen with a high oxidative potential, such as peroxides, chlorates, nitrates, perchlorates, and dichromates because they can donate oxygen to a fire.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19465",
+        "score": 0.031746,
+        "text": "Steam engines are external combustion engines, where the working fluid is separate from the combustion products. Non-combustion heat sources such as solar power, nuclear power or geothermal energy may be used. The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle. In the cycle, water is heated and transforms into steam within a boiler operating at a high pressure. When expanded through pistons or turbines, mechanical work is done. The reduced-pressure steam is then condensed and pumped back into the boiler.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "nuclear reactor",
+        "answer_start": 285,
+        "answer_end": 300,
+        "start_confidence": 0.4579,
+        "end_confidence": 0.8603,
+        "avg_confidence": 0.6591,
+        "latency_ms": 6.3,
+        "answer_length_words": 2,
+        "context_length_words": 81,
+        "exact_match": false,
+        "token_f1": 22.2,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "",
+        "answer_start": 0,
+        "answer_end": 0,
+        "start_confidence": 0.7229,
+        "end_confidence": 0.518,
+        "avg_confidence": 0.6204,
+        "latency_ms": 6.5,
+        "answer_length_words": 0,
+        "context_length_words": 81,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "reactor",
+        "answer_start": 293,
+        "answer_end": 300,
+        "start_confidence": 0.5147,
+        "end_confidence": 0.6263,
+        "avg_confidence": 0.5705,
+        "latency_ms": 3.3,
+        "answer_length_words": 1,
+        "context_length_words": 81,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "The atomic number of the periodic table for oxygen?",
+    "topic": "Oxygen",
+    "gold": "8",
+    "gold_answers": [
+      "8"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "The atomic number of the periodic table for oxygen?",
+      "Regarding the atomic number of the periodic table for oxygen?"
+    ],
+    "evidence_doc_id": "doc_19511",
+    "evidence_score": 0.032787,
+    "evidence_text": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements. By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium. At standard temperature and pressure, two atoms of the element bind to form dioxygen, a colorless and odorless diatomic gas with the formula O\n2. Diatomic oxygen gas constitutes 20.8% of the Earth's atmosphere. However, monitoring of atmospheric oxygen levels show a global downward trend, because of fossil-fuel burning. Oxygen is the most abundant element by mass in the Earth's crust as part of oxide compounds such as silicon dioxide, making up almost half of the crust's mass.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19511",
+        "score": 0.032787,
+        "text": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements. By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium. At standard temperature and pressure, two atoms of the element bind to form dioxygen, a colorless and odorless diatomic gas with the formula O\n2. Diatomic oxygen gas constitutes 20.8% of the Earth's atmosphere. However, monitoring of atmospheric oxygen levels show a global downward trend, because of fossil-fuel burning. Oxygen is the most abundant element by mass in the Earth's crust as part of oxide compounds such as silicon dioxide, making up almost half of the crust's mass.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_3186",
+        "score": 0.032258,
+        "text": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 7000100794000000000♠1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.[note 1] Non-remnant stars are mainly composed of hydrogen in its plasma state. The most common isotope of hydrogen, termed protium (name rarely used, symbol 1H), has one proton and no neutrons.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19521",
+        "score": 0.031746,
+        "text": "In this dioxygen, the two oxygen atoms are chemically bonded to each other. The bond can be variously described based on level of theory, but is reasonably and simply described as a covalent double bond that results from the filling of molecular orbitals formed from the atomic orbitals of the individual oxygen atoms, the filling of which results in a bond order of two. More specifically, the double bond is the result of sequential, low-to-high energy, or Aufbau, filling of orbitals, and the resulting cancellation of contributions from the 2s electrons, after sequential filling of the low σ and σ* orbitals; σ overlap of the two atomic 2p orbitals that lie along the O-O molecular axis and π overlap of two pairs of atomic 2p orbitals perpendicular to the O-O molecular axis, and then cancellation of contributions from the remaining two of the six 2p electrons after their partial filling of the lowest π and π* orbitals.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "8",
+        "answer_start": 61,
+        "answer_end": 62,
+        "start_confidence": 0.9963,
+        "end_confidence": 0.9991,
+        "avg_confidence": 0.9977,
+        "latency_ms": 9.7,
+        "answer_length_words": 1,
+        "context_length_words": 135,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "8",
+        "answer_start": 61,
+        "answer_end": 62,
+        "start_confidence": 0.9905,
+        "end_confidence": 0.9891,
+        "avg_confidence": 0.9898,
+        "latency_ms": 9.0,
+        "answer_length_words": 1,
+        "context_length_words": 135,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "8",
+        "answer_start": 61,
+        "answer_end": 62,
+        "start_confidence": 0.973,
+        "end_confidence": 0.9738,
+        "avg_confidence": 0.9734,
+        "latency_ms": 5.0,
+        "answer_length_words": 1,
+        "context_length_words": 135,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "When did the 1973 oil crisis begin?",
+    "topic": "1973 oil crisis",
+    "gold": "1973",
+    "gold_answers": [
+      "1973",
+      "October 1973",
+      "October"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "When did the 1973 oil crisis begin?",
+      "Regarding when did the 1973 oil crisis begin?"
+    ],
+    "evidence_doc_id": "doc_19554",
+    "evidence_score": 0.032787,
+    "evidence_text": "The 1973 oil crisis began in October 1973 when the members of the Organization of Arab Petroleum Exporting Countries (OAPEC, consisting of the Arab members of OPEC plus Egypt and Syria) proclaimed an oil embargo. By the end of the embargo in March 1974, the price of oil had risen from US$3 per barrel to nearly $12 globally; US prices were significantly higher. The embargo caused an oil crisis, or \"shock\", with many short- and long-term effects on global politics and the global economy. It was later called the \"first oil shock\", followed by the 1979 oil crisis, termed the \"second oil shock.\"",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19554",
+        "score": 0.032787,
+        "text": "The 1973 oil crisis began in October 1973 when the members of the Organization of Arab Petroleum Exporting Countries (OAPEC, consisting of the Arab members of OPEC plus Egypt and Syria) proclaimed an oil embargo. By the end of the embargo in March 1974, the price of oil had risen from US$3 per barrel to nearly $12 globally; US prices were significantly higher. The embargo caused an oil crisis, or \"shock\", with many short- and long-term effects on global politics and the global economy. It was later called the \"first oil shock\", followed by the 1979 oil crisis, termed the \"second oil shock.\"",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19565",
+        "score": 0.032258,
+        "text": "Price controls exacerbated the crisis in the US. The system limited the price of \"old oil\" (that which had already been discovered) while allowing newly discovered oil to be sold at a higher price to encourage investment. Predictably, old oil was withdrawn from the market, creating greater scarcity. The rule also discouraged development of alternative energies. The rule had been intended to promote oil exploration. Scarcity was addressed by rationing (as in many countries). Motorists faced long lines at gas stations beginning in summer 1972 and increasing by summer 1973.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19559",
+        "score": 0.031746,
+        "text": "In response to American aid to Israel, on October 16, 1973, OPEC raised the posted price of oil by 70%, to $5.11 a barrel. The following day, oil ministers agreed to the embargo, a cut in production by five percent from September's output and to continue to cut production in five percent monthly increments until their economic and political objectives were met. On October 19, Nixon requested Congress to appropriate $2.2 billion in emergency aid to Israel, including $1.5 billion in outright grants. George Lenczowski notes, \"Military supplies did not exhaust Nixon's eagerness to prevent Israel's collapse...This [$2.2 billion] decision triggered a collective OPEC response.\" Libya immediately announced it would embargo oil shipments to the United States. Saudi Arabia and the other Arab oil-producing states joined the embargo on October 20, 1973. At their Kuwait meeting, OAPEC proclaimed the embargo that curbed exports to various countries and blocked all oil deliveries to the US as a \"principal hostile country\".",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "October 1973",
+        "answer_start": 29,
+        "answer_end": 41,
+        "start_confidence": 0.9812,
+        "end_confidence": 0.9662,
+        "avg_confidence": 0.9737,
+        "latency_ms": 7.3,
+        "answer_length_words": 2,
+        "context_length_words": 103,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "October 1973",
+        "answer_start": 29,
+        "answer_end": 41,
+        "start_confidence": 0.9886,
+        "end_confidence": 0.9964,
+        "avg_confidence": 0.9925,
+        "latency_ms": 7.7,
+        "answer_length_words": 2,
+        "context_length_words": 103,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "October 1973",
+        "answer_start": 29,
+        "answer_end": 41,
+        "start_confidence": 0.9872,
+        "end_confidence": 0.9911,
+        "avg_confidence": 0.9891,
+        "latency_ms": 3.8,
+        "answer_length_words": 2,
+        "context_length_words": 103,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "What project put the first Americans into space?",
+    "topic": "Apollo program",
+    "gold": "Project Mercury",
+    "gold_answers": [
+      "Project Mercury",
+      "Apollo",
+      "spacecraft",
+      "Project Apollo"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "What project put the first Americans into space?",
+      "Regarding what project put the first Americans into space?"
+    ],
+    "evidence_doc_id": "doc_19578",
+    "evidence_score": 0.032787,
+    "evidence_text": "The Apollo program, also known as Project Apollo, was the third United States human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which accomplished landing the first humans on the Moon from 1969 to 1972. First conceived during Dwight D. Eisenhower's administration as a three-man spacecraft to follow the one-man Project Mercury which put the first Americans in space, Apollo was later dedicated to President John F. Kennedy's national goal of \"landing a man on the Moon and returning him safely to the Earth\" by the end of the 1960s, which he proposed in a May 25, 1961, address to Congress. Project Mercury was followed by the two-man Project Gemini (1962–66). The first manned flight of Apollo was in 1968.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19578",
+        "score": 0.032787,
+        "text": "The Apollo program, also known as Project Apollo, was the third United States human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which accomplished landing the first humans on the Moon from 1969 to 1972. First conceived during Dwight D. Eisenhower's administration as a three-man spacecraft to follow the one-man Project Mercury which put the first Americans in space, Apollo was later dedicated to President John F. Kennedy's national goal of \"landing a man on the Moon and returning him safely to the Earth\" by the end of the 1960s, which he proposed in a May 25, 1961, address to Congress. Project Mercury was followed by the two-man Project Gemini (1962–66). The first manned flight of Apollo was in 1968.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_2529",
+        "score": 0.032258,
+        "text": "The US Air Force had been developing a program to launch the first man in space, named Man in Space Soonest. This program studied several different types of one-man space vehicles, settling on a ballistic re-entry capsule launched on a derivative Atlas missile, and selecting a group of nine candidate pilots. After NASA's creation, the program was transferred over to the civilian agency and renamed Project Mercury on November 26, 1958. NASA selected a new group of astronaut (from the Greek for \"star sailor\") candidates from Navy, Air Force and Marine test pilots, and narrowed this down to a group of seven for the program. Capsule design and astronaut training began immediately, working toward preliminary suborbital flights on the Redstone missile, followed by orbital flights on the Atlas. Each flight series would first start unmanned, then carry a primate, then finally men.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_2519",
+        "score": 0.031746,
+        "text": "In 1955, with both the United States and the Soviet Union building ballistic missiles that could be utilized to launch objects into space, the \"starting line\" was drawn for the Space Race. In separate announcements, just four days apart, both nations publicly announced that they would launch artificial Earth satellites by 1957 or 1958. On July 29, 1955, James C. Hagerty, president Dwight D. Eisenhower's press secretary, announced that the United States intended to launch \"small Earth circling satellites\" between July 1, 1957, and December 31, 1958, as part of their contribution to the International Geophysical Year (IGY). Four days later, at the Sixth Congress of International Astronautical Federation in Copenhagen, scientist Leonid I. Sedov spoke to international reporters at the Soviet embassy, and announced his country's intention to launch a satellite as well, in the \"near future\". On August 30, 1955, Korolev managed to get the Soviet Academy of Sciences to create a commission whose purpose was to beat the Americans into Earth orbit: this was the de facto start date for the Space Race. The Council of Ministers of the Soviet Union began a policy of treating development of its space program as a classified state secret.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "Project Mercury",
+        "answer_start": 361,
+        "answer_end": 376,
+        "start_confidence": 0.889,
+        "end_confidence": 0.9948,
+        "avg_confidence": 0.9419,
+        "latency_ms": 8.1,
+        "answer_length_words": 2,
+        "context_length_words": 124,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "Project Mercury",
+        "answer_start": 361,
+        "answer_end": 376,
+        "start_confidence": 0.5095,
+        "end_confidence": 0.9939,
+        "avg_confidence": 0.7517,
+        "latency_ms": 7.9,
+        "answer_length_words": 2,
+        "context_length_words": 124,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "Mercury",
+        "answer_start": 369,
+        "answer_end": 376,
+        "start_confidence": 0.4502,
+        "end_confidence": 0.9518,
+        "avg_confidence": 0.701,
+        "latency_ms": 4.0,
+        "answer_length_words": 1,
+        "context_length_words": 124,
+        "exact_match": false,
+        "token_f1": 66.7,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "What are the three sources of European Union law?",
+    "topic": "European Union law",
+    "gold": "primary law, secondary law and supplementary law.",
+    "gold_answers": [
+      "primary law, secondary law and supplementary law.",
+      "primary law, secondary law and supplementary law"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "What are the three sources of European Union law?",
+      "Regarding what are the three sources of European Union law?"
+    ],
+    "evidence_doc_id": "doc_19635",
+    "evidence_score": 0.032787,
+    "evidence_text": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which have direct effect or indirect effect on the laws of European Union member states. The three sources of European Union law are primary law, secondary law and supplementary law. The main sources of primary law are the Treaties establishing the European Union. Secondary sources include regulations and directives which are based on the Treaties. The legislature of the European Union is principally composed of the European Parliament and the Council of the European Union, which under the Treaties may establish secondary law to pursue the objective set out in the Treaties.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19635",
+        "score": 0.032787,
+        "text": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which have direct effect or indirect effect on the laws of European Union member states. The three sources of European Union law are primary law, secondary law and supplementary law. The main sources of primary law are the Treaties establishing the European Union. Secondary sources include regulations and directives which are based on the Treaties. The legislature of the European Union is principally composed of the European Parliament and the Council of the European Union, which under the Treaties may establish secondary law to pursue the objective set out in the Treaties.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19636",
+        "score": 0.032258,
+        "text": "European Union law is applied by the courts of member states and the Court of Justice of the European Union. Where the laws of member states provide for lesser rights European Union law can be enforced by the courts of member states. In case of European Union law which should have been transposed into the laws of member states, such as Directives, the European Commission can take proceedings against the member state under the Treaty on the Functioning of the European Union. The European Court of Justice is the highest court able to interpret European Union law. Supplementary sources of European Union law include case law by the Court of Justice, international law and general principles of European Union law.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19654",
+        "score": 0.031746,
+        "text": "The principles of European Union law are rules of law which have been developed by the European Court of Justice that constitute unwritten rules which are not expressly provided for in the treaties but which affect how European Union law is interpreted and applies. In formulating these principles, the courts have drawn on a variety of sources, including: public international law and legal doctrines and principles present in the legal systems of European Union member states and in the jurisprudence of the European Court of Human Rights. Accepted general principles of European Union Law include fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "primary law, secondary law and supplementary law",
+        "answer_start": 227,
+        "answer_end": 275,
+        "start_confidence": 0.9774,
+        "end_confidence": 0.9671,
+        "avg_confidence": 0.9722,
+        "latency_ms": 7.5,
+        "answer_length_words": 7,
+        "context_length_words": 107,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "primary law, secondary law and supplementary law",
+        "answer_start": 227,
+        "answer_end": 275,
+        "start_confidence": 0.9549,
+        "end_confidence": 0.944,
+        "avg_confidence": 0.9494,
+        "latency_ms": 7.8,
+        "answer_length_words": 7,
+        "context_length_words": 107,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "primary law, secondary law and supplementary law",
+        "answer_start": 227,
+        "answer_end": 275,
+        "start_confidence": 0.9463,
+        "end_confidence": 0.9323,
+        "avg_confidence": 0.9393,
+        "latency_ms": 3.8,
+        "answer_length_words": 7,
+        "context_length_words": 107,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "Which name is also used to describe the Amazon rainforest in English?",
+    "topic": "Amazon rainforest",
+    "gold": "Amazonia",
+    "gold_answers": [
+      "Amazonia",
+      "Amazonia or the Amazon Jungle",
+      "also known in English as Amazonia or the Amazon Jungle,"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "Which name is also used to describe the Amazon rainforest in English?",
+      "Regarding which name is also used to describe the Amazon rainforest in English?"
+    ],
+    "evidence_doc_id": "doc_19676",
+    "evidence_score": 0.032787,
+    "evidence_text": "The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. States or departments in four nations contain \"Amazonas\" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19676",
+        "score": 0.032787,
+        "text": "The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. States or departments in four nations contain \"Amazonas\" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19679",
+        "score": 0.032258,
+        "text": "There is evidence that there have been significant changes in Amazon rainforest vegetation over the last 21,000 years through the Last Glacial Maximum (LGM) and subsequent deglaciation. Analyses of sediment deposits from Amazon basin paleolakes and from the Amazon Fan indicate that rainfall in the basin during the LGM was lower than for the present, and this was almost certainly associated with reduced moist tropical vegetation cover in the basin. There is debate, however, over how extensive this reduction was. Some scientists argue that the rainforest was reduced to small, isolated refugia separated by open forest and grassland; other scientists argue that the rainforest remained largely intact but extended less far to the north, south, and east than is seen today. This debate has proved difficult to resolve because the practical limitations of working in the rainforest mean that data sampling is biased away from the center of the Amazon basin, and both explanations are reasonably well supported by the available data.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19696",
+        "score": 0.031746,
+        "text": "In 2010 the Amazon rainforest experienced another severe drought, in some ways more extreme than the 2005 drought. The affected region was approximate 1,160,000 square miles (3,000,000 km2) of rainforest, compared to 734,000 square miles (1,900,000 km2) in 2005. The 2010 drought had three epicenters where vegetation died off, whereas in 2005 the drought was focused on the southwestern part. The findings were published in the journal Science. In a typical year the Amazon absorbs 1.5 gigatons of carbon dioxide; during 2005 instead 5 gigatons were released and in 2010 8 gigatons were released.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "Amazonia",
+        "answer_start": 113,
+        "answer_end": 121,
+        "start_confidence": 0.9286,
+        "end_confidence": 0.4825,
+        "avg_confidence": 0.7055,
+        "latency_ms": 10.9,
+        "answer_length_words": 1,
+        "context_length_words": 156,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "Amazonia or the Amazon Jungle",
+        "answer_start": 201,
+        "answer_end": 230,
+        "start_confidence": 0.8769,
+        "end_confidence": 0.6483,
+        "avg_confidence": 0.7626,
+        "latency_ms": 9.3,
+        "answer_length_words": 5,
+        "context_length_words": 156,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "Amazonia",
+        "answer_start": 113,
+        "answer_end": 121,
+        "start_confidence": 0.9045,
+        "end_confidence": 0.4976,
+        "avg_confidence": 0.7011,
+        "latency_ms": 4.6,
+        "answer_length_words": 1,
+        "context_length_words": 156,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "What are Ctenophora commonly known as?",
+    "topic": "Ctenophora",
+    "gold": "comb jellies",
+    "gold_answers": [
+      "comb jellies"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "What are Ctenophora commonly known as?",
+      "Regarding what are Ctenophora commonly known as?"
+    ],
+    "evidence_doc_id": "doc_19697",
+    "evidence_score": 0.032787,
+    "evidence_text": "Ctenophora (/tᵻˈnɒfərə/; singular ctenophore, /ˈtɛnəfɔːr/ or /ˈtiːnəfɔːr/; from the Greek κτείς kteis 'comb' and φέρω pherō 'carry'; commonly known as comb jellies) is a phylum of animals that live in marine waters worldwide. Their most distinctive feature is the ‘combs’ – groups of cilia which they use for swimming – they are the largest animals that swim by means of cilia. Adults of various species range from a few millimeters to 1.5 m (4 ft 11 in) in size. Like cnidarians, their bodies consist of a mass of jelly, with one layer of cells on the outside and another lining the internal cavity. In ctenophores, these layers are two cells deep, while those in cnidarians are only one cell deep. Some authors combined ctenophores and cnidarians in one phylum, Coelenterata, as both groups rely on water flow through the body cavity for both digestion and respiration. Increasing awareness of the differences persuaded more recent authors to classify them as separate phyla.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19697",
+        "score": 0.032787,
+        "text": "Ctenophora (/tᵻˈnɒfərə/; singular ctenophore, /ˈtɛnəfɔːr/ or /ˈtiːnəfɔːr/; from the Greek κτείς kteis 'comb' and φέρω pherō 'carry'; commonly known as comb jellies) is a phylum of animals that live in marine waters worldwide. Their most distinctive feature is the ‘combs’ – groups of cilia which they use for swimming – they are the largest animals that swim by means of cilia. Adults of various species range from a few millimeters to 1.5 m (4 ft 11 in) in size. Like cnidarians, their bodies consist of a mass of jelly, with one layer of cells on the outside and another lining the internal cavity. In ctenophores, these layers are two cells deep, while those in cnidarians are only one cell deep. Some authors combined ctenophores and cnidarians in one phylum, Coelenterata, as both groups rely on water flow through the body cavity for both digestion and respiration. Increasing awareness of the differences persuaded more recent authors to classify them as separate phyla.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_6110",
+        "score": 0.032258,
+        "text": "Among the other phyla, the Ctenophora and the Cnidaria, which includes sea anemones, corals, and jellyfish, are radially symmetric and have digestive chambers with a single opening, which serves as both the mouth and the anus. Both have distinct tissues, but they are not organized into organs. There are only two main germ layers, the ectoderm and endoderm, with only scattered cells between them. As such, these animals are sometimes called diploblastic. The tiny placozoans are similar, but they do not have a permanent digestive chamber.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19702",
+        "score": 0.031746,
+        "text": "Ctenophores form an animal phylum that is more complex than sponges, about as complex as cnidarians (jellyfish, sea anemones, etc.), and less complex than bilaterians (which include almost all other animals). Unlike sponges, both ctenophores and cnidarians have: cells bound by inter-cell connections and carpet-like basement membranes; muscles; nervous systems; and some have sensory organs. Ctenophores are distinguished from all other animals by having colloblasts, which are sticky and adhere to prey, although a few ctenophore species lack them.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "comb jellies",
+        "answer_start": 151,
+        "answer_end": 163,
+        "start_confidence": 0.967,
+        "end_confidence": 0.9584,
+        "avg_confidence": 0.9627,
+        "latency_ms": 11.8,
+        "answer_length_words": 2,
+        "context_length_words": 161,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "comb jellies",
+        "answer_start": 151,
+        "answer_end": 163,
+        "start_confidence": 0.998,
+        "end_confidence": 0.9964,
+        "avg_confidence": 0.9972,
+        "latency_ms": 11.6,
+        "answer_length_words": 2,
+        "context_length_words": 161,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "comb jellies",
+        "answer_start": 151,
+        "answer_end": 163,
+        "start_confidence": 0.9921,
+        "end_confidence": 0.9815,
+        "avg_confidence": 0.9868,
+        "latency_ms": 6.0,
+        "answer_length_words": 2,
+        "context_length_words": 161,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "Which city is the fifth-largest city in California?",
+    "topic": "Fresno, California",
+    "gold": "Fresno",
+    "gold_answers": [
+      "Fresno"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "Which city is the fifth-largest city in California?",
+      "Regarding which city is the fifth-largest city in California?"
+    ],
+    "evidence_doc_id": "doc_19339",
+    "evidence_score": 0.032787,
+    "evidence_text": "Within southern California are two major cities, Los Angeles and San Diego, as well as three of the country's largest metropolitan areas. With a population of 3,792,621, Los Angeles is the most populous city in California and the second most populous in the United States. To the south and with a population of 1,307,402 is San Diego, the second most populous city in the state and the eighth most populous in the nation.",
+    "retrieval_hit": false,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19339",
+        "score": 0.032787,
+        "text": "Within southern California are two major cities, Los Angeles and San Diego, as well as three of the country's largest metropolitan areas. With a population of 3,792,621, Los Angeles is the most populous city in California and the second most populous in the United States. To the south and with a population of 1,307,402 is San Diego, the second most populous city in the state and the eighth most populous in the nation.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19728",
+        "score": 0.032258,
+        "text": "Fresno (/ˈfrɛznoʊ/ FREZ-noh), the county seat of Fresno County, is a city in the U.S. state of California. As of 2015, the city's population was 520,159, making it the fifth-largest city in California, the largest inland city in California and the 34th-largest in the nation. Fresno is in the center of the San Joaquin Valley and is the largest city in the Central Valley, which contains the San Joaquin Valley. It is approximately 220 miles (350 km) northwest of Los Angeles, 170 miles (270 km) south of the state capital, Sacramento, or 185 miles (300 km) south of San Francisco. The name Fresno means \"ash tree\" in Spanish, and an ash leaf is featured on the city's flag.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_17047",
+        "score": 0.031746,
+        "text": "With an estimated population of 1,381,069 as of July 1, 2014, San Diego is the eighth-largest city in the United States and second-largest in California. It is part of the San Diego–Tijuana conurbation, the second-largest transborder agglomeration between the US and a bordering country after Detroit–Windsor, with a population of 4,922,723 people. San Diego is the birthplace of California and is known for its mild year-round climate, natural deep-water harbor, extensive beaches, long association with the United States Navy and recent emergence as a healthcare and biotechnology development center.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "San Diego",
+        "answer_start": 65,
+        "answer_end": 74,
+        "start_confidence": 0.4044,
+        "end_confidence": 0.5004,
+        "avg_confidence": 0.4524,
+        "latency_ms": 6.7,
+        "answer_length_words": 2,
+        "context_length_words": 73,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "San Diego",
+        "answer_start": 65,
+        "answer_end": 74,
+        "start_confidence": 0.5068,
+        "end_confidence": 0.5173,
+        "avg_confidence": 0.5121,
+        "latency_ms": 7.3,
+        "answer_length_words": 2,
+        "context_length_words": 73,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "",
+        "answer_start": 0,
+        "answer_end": 0,
+        "start_confidence": 0.5207,
+        "end_confidence": 0.5068,
+        "avg_confidence": 0.5138,
+        "latency_ms": 3.7,
+        "answer_length_words": 0,
+        "context_length_words": 73,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "What did Paul Baran develop ",
+    "topic": "Packet switching",
+    "gold": "Distributed Adaptive Message Block Switching",
+    "gold_answers": [
+      "Distributed Adaptive Message Block Switching",
+      "Paul Baran developed the concept Distributed Adaptive Message Block Switching",
+      "the concept Distributed Adaptive Message Block Switching"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "What did Paul Baran develop ",
+      "Regarding what did Paul Baran develop "
+    ],
+    "evidence_doc_id": "doc_19760",
+    "evidence_score": 0.032787,
+    "evidence_text": "Starting in 1965, Donald Davies at the National Physical Laboratory, UK, independently developed the same message routing methodology as developed by Baran. He called it packet switching, a more accessible name than Baran's, and proposed to build a nationwide network in the UK. He gave a talk on the proposal in 1966, after which a person from the Ministry of Defence (MoD) told him about Baran's work. A member of Davies' team (Roger Scantlebury) met Lawrence Roberts at the 1967 ACM Symposium on Operating System Principles and suggested it for use in the ARPANET.",
+    "retrieval_hit": false,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19760",
+        "score": 0.032787,
+        "text": "Starting in 1965, Donald Davies at the National Physical Laboratory, UK, independently developed the same message routing methodology as developed by Baran. He called it packet switching, a more accessible name than Baran's, and proposed to build a nationwide network in the UK. He gave a talk on the proposal in 1966, after which a person from the Ministry of Defence (MoD) told him about Baran's work. A member of Davies' team (Roger Scantlebury) met Lawrence Roberts at the 1967 ACM Symposium on Operating System Principles and suggested it for use in the ARPANET.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_10860",
+        "score": 0.032258,
+        "text": "On basic Church teachings, the pope was unwavering. On the tenth anniversary of Humanae vitae, he reconfirmed this teaching. In his style and methodology, he was a disciple of Pius XII, whom he deeply revered. He suffered for the attacks on Pius XII for his alleged silences during the Holocaust. Pope Paul VI was less outstanding than his predecessors: he was not credited with an encyclopedic memory, nor a gift for languages, nor the brilliant writing style of Pius XII, nor did he have the charisma and outpouring love, sense of humor and human warmth of John XXIII. He took on himself the unfinished reform work of these two popes, bringing them diligently with great humility and common sense and without much fanfare to conclusion. In doing so, Paul VI saw himself following in the footsteps of the Apostle Paul, torn to several directions as Saint Paul, who said, \"I am attracted to two sides at once, because the Cross always divides.\"",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_11487",
+        "score": 0.031258,
+        "text": "Later, von Neumann suggested a new method of linear programming, using the homogeneous linear system of Gordan (1873), which was later popularized by Karmarkar's algorithm. Von Neumann's method used a pivoting algorithm between simplices, with the pivoting decision determined by a nonnegative least squares subproblem with a convexity constraint (projecting the zero-vector onto the convex hull of the active simplex). Von Neumann's algorithm was the first interior point method of linear programming.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "message routing methodology",
+        "answer_start": 106,
+        "answer_end": 133,
+        "start_confidence": 0.351,
+        "end_confidence": 0.7656,
+        "avg_confidence": 0.5583,
+        "latency_ms": 7.7,
+        "answer_length_words": 3,
+        "context_length_words": 94,
+        "exact_match": false,
+        "token_f1": 25.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "proposed to build a nationwide network in the UK",
+        "answer_start": 229,
+        "answer_end": 277,
+        "start_confidence": 0.1782,
+        "end_confidence": 0.1405,
+        "avg_confidence": 0.1594,
+        "latency_ms": 7.7,
+        "answer_length_words": 9,
+        "context_length_words": 94,
+        "exact_match": false,
+        "token_f1": 0.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "message routing methodology",
+        "answer_start": 106,
+        "answer_end": 133,
+        "start_confidence": 0.2695,
+        "end_confidence": 0.6286,
+        "avg_confidence": 0.4491,
+        "latency_ms": 4.2,
+        "answer_length_words": 3,
+        "context_length_words": 94,
+        "exact_match": false,
+        "token_f1": 25.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "Where did the black death originate?",
+    "topic": "Black Death",
+    "gold": "the arid plains of Central Asia",
+    "gold_answers": [
+      "the arid plains of Central Asia",
+      "Central Asia"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "Where did the black death originate?",
+      "Regarding where did the black death originate?"
+    ],
+    "evidence_doc_id": "doc_19779",
+    "evidence_score": 0.032787,
+    "evidence_text": "The Black Death is thought to have originated in the arid plains of Central Asia, where it then travelled along the Silk Road, reaching Crimea by 1343. From there, it was most likely carried by Oriental rat fleas living on the black rats that were regular passengers on merchant ships. Spreading throughout the Mediterranean and Europe, the Black Death is estimated to have killed 30–60% of Europe's total population. In total, the plague reduced the world population from an estimated 450 million down to 350–375 million in the 14th century. The world population as a whole did not recover to pre-plague levels until the 17th century. The plague recurred occasionally in Europe until the 19th century.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19779",
+        "score": 0.032787,
+        "text": "The Black Death is thought to have originated in the arid plains of Central Asia, where it then travelled along the Silk Road, reaching Crimea by 1343. From there, it was most likely carried by Oriental rat fleas living on the black rats that were regular passengers on merchant ships. Spreading throughout the Mediterranean and Europe, the Black Death is estimated to have killed 30–60% of Europe's total population. In total, the plague reduced the world population from an estimated 450 million down to 350–375 million in the 14th century. The world population as a whole did not recover to pre-plague levels until the 17th century. The plague recurred occasionally in Europe until the 19th century.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19784",
+        "score": 0.032258,
+        "text": "Gasquet (1908) claimed that the Latin name atra mors (Black Death) for the 14th-century epidemic first appeared in modern times in 1631 in a book on Danish history by J.I. Pontanus: \"Vulgo & ab effectu atram mortem vocatibant. (\"Commonly and from its effects, they called it the black death\"). The name spread through Scandinavia and then Germany, gradually becoming attached to the mid 14th-century epidemic as a proper name. In England, it was not until 1823 that the medieval epidemic was first called the Black Death.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19794",
+        "score": 0.031746,
+        "text": "In addition to arguing that the rat population was insufficient to account for a bubonic plague pandemic, sceptics of the bubonic plague theory point out that the symptoms of the Black Death are not unique (and arguably in some accounts may differ from bubonic plague); that transference via fleas in goods was likely to be of marginal significance; and that the DNA results may be flawed and might not have been repeated elsewhere, despite extensive samples from other mass graves. Other arguments include the lack of accounts of the death of rats before outbreaks of plague between the 14th and 17th centuries; temperatures that are too cold in northern Europe for the survival of fleas; that, despite primitive transport systems, the spread of the Black Death was much faster than that of modern bubonic plague; that mortality rates of the Black Death appear to be very high; that, while modern bubonic plague is largely endemic as a rural disease, the Black Death indiscriminately struck urban and rural areas; and that the pattern of the Black Death, with major outbreaks in the same areas separated by 5 to 15 years, differs from modern bubonic plague—which often becomes endemic for decades with annual flare-ups.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "Central Asia",
+        "answer_start": 68,
+        "answer_end": 80,
+        "start_confidence": 0.4256,
+        "end_confidence": 0.94,
+        "avg_confidence": 0.6828,
+        "latency_ms": 9.1,
+        "answer_length_words": 2,
+        "context_length_words": 116,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "arid plains of Central Asia",
+        "answer_start": 53,
+        "answer_end": 80,
+        "start_confidence": 0.471,
+        "end_confidence": 0.9538,
+        "avg_confidence": 0.7124,
+        "latency_ms": 7.4,
+        "answer_length_words": 5,
+        "context_length_words": 116,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "Central Asia",
+        "answer_start": 68,
+        "answer_end": 80,
+        "start_confidence": 0.3303,
+        "end_confidence": 0.9793,
+        "avg_confidence": 0.6548,
+        "latency_ms": 4.6,
+        "answer_length_words": 2,
+        "context_length_words": 116,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "An igneous rock is a rock that crystallizes from what?",
+    "topic": "Geology",
+    "gold": "melt (magma and/or lava)",
+    "gold_answers": [
+      "melt (magma and/or lava)",
+      "melt",
+      "rock crystallizes from melt (magma and/or lava)"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "An igneous rock is a rock that crystallizes from what?",
+      "Regarding an igneous rock is a rock that crystallizes from what?"
+    ],
+    "evidence_doc_id": "doc_19802",
+    "evidence_score": 0.032787,
+    "evidence_text": "There are three major types of rock: igneous, sedimentary, and metamorphic. The rock cycle is an important concept in geology which illustrates the relationships between these three types of rock, and magma. When a rock crystallizes from melt (magma and/or lava), it is an igneous rock. This rock can be weathered and eroded, and then redeposited and lithified into a sedimentary rock, or be turned into a metamorphic rock due to heat and pressure that change the mineral content of the rock which gives it a characteristic fabric. The sedimentary rock can then be subsequently turned into a metamorphic rock due to heat and pressure and is then weathered, eroded, deposited, and lithified, ultimately becoming a sedimentary rock. Sedimentary rock may also be re-eroded and redeposited, and metamorphic rock may also undergo additional metamorphism. All three types of rocks may be re-melted; when this happens, a new magma is formed, from which an igneous rock may once again crystallize.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19802",
+        "score": 0.032787,
+        "text": "There are three major types of rock: igneous, sedimentary, and metamorphic. The rock cycle is an important concept in geology which illustrates the relationships between these three types of rock, and magma. When a rock crystallizes from melt (magma and/or lava), it is an igneous rock. This rock can be weathered and eroded, and then redeposited and lithified into a sedimentary rock, or be turned into a metamorphic rock due to heat and pressure that change the mineral content of the rock which gives it a characteristic fabric. The sedimentary rock can then be subsequently turned into a metamorphic rock due to heat and pressure and is then weathered, eroded, deposited, and lithified, ultimately becoming a sedimentary rock. Sedimentary rock may also be re-eroded and redeposited, and metamorphic rock may also undergo additional metamorphism. All three types of rocks may be re-melted; when this happens, a new magma is formed, from which an igneous rock may once again crystallize.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19814",
+        "score": 0.032258,
+        "text": "The addition of new rock units, both depositionally and intrusively, often occurs during deformation. Faulting and other deformational processes result in the creation of topographic gradients, causing material on the rock unit that is increasing in elevation to be eroded by hillslopes and channels. These sediments are deposited on the rock unit that is going down. Continual motion along the fault maintains the topographic gradient in spite of the movement of sediment, and continues to create accommodation space for the material to deposit. Deformational events are often also associated with volcanism and igneous activity. Volcanic ashes and lavas accumulate on the surface, and igneous intrusions enter from below. Dikes, long, planar igneous intrusions, enter along cracks, and therefore often form in large numbers in areas that are being actively deformed. This can result in the emplacement of dike swarms, such as those that are observable across the Canadian shield, or rings of dikes around the lava tube of a volcano.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19808",
+        "score": 0.031746,
+        "text": "The principle of inclusions and components states that, with sedimentary rocks, if inclusions (or clasts) are found in a formation, then the inclusions must be older than the formation that contains them. For example, in sedimentary rocks, it is common for gravel from an older formation to be ripped up and included in a newer layer. A similar situation with igneous rocks occurs when xenoliths are found. These foreign bodies are picked up as magma or lava flows, and are incorporated, later to cool in the matrix. As a result, xenoliths are older than the rock which contains them.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "melt",
+        "answer_start": 238,
+        "answer_end": 242,
+        "start_confidence": 0.888,
+        "end_confidence": 0.6787,
+        "avg_confidence": 0.7833,
+        "latency_ms": 9.7,
+        "answer_length_words": 1,
+        "context_length_words": 159,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "melt",
+        "answer_start": 238,
+        "answer_end": 242,
+        "start_confidence": 0.9816,
+        "end_confidence": 0.6872,
+        "avg_confidence": 0.8344,
+        "latency_ms": 9.1,
+        "answer_length_words": 1,
+        "context_length_words": 159,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "melt",
+        "answer_start": 238,
+        "answer_end": 242,
+        "start_confidence": 0.9445,
+        "end_confidence": 0.8223,
+        "avg_confidence": 0.8834,
+        "latency_ms": 5.3,
+        "answer_length_words": 1,
+        "context_length_words": 159,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "How many miles south of Edinburgh is Newcastle?",
+    "topic": "Newcastle upon Tyne",
+    "gold": "103 miles",
+    "gold_answers": [
+      "103 miles"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "How many miles south of Edinburgh is Newcastle?",
+      "Regarding how many miles south of Edinburgh is Newcastle?"
+    ],
+    "evidence_doc_id": "doc_19827",
+    "evidence_score": 0.032787,
+    "evidence_text": "Newcastle upon Tyne (RP: i/ˌnjuːkɑːsəl əˌpɒn ˈtaɪn/; Locally: i/njuːˌkæsəl əˌpən ˈtaɪn/), commonly known as Newcastle, is a city in Tyne and Wear, North East England, 103 miles (166 km) south of Edinburgh and 277 miles (446 km) north of London on the northern bank of the River Tyne, 8.5 mi (13.7 km) from the North Sea. Newcastle is the most populous city in the North East and Tyneside the eighth most populous conurbation in the United Kingdom. Newcastle is a member of the English Core Cities Group and is a member of the Eurocities network of European cities. Newcastle was part of the county of Northumberland until 1400, when it became a county itself, a status it retained until becoming part of Tyne and Wear in 1974.[not in citation given] The regional nickname and dialect for people from Newcastle and the surrounding area is Geordie.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19827",
+        "score": 0.032787,
+        "text": "Newcastle upon Tyne (RP: i/ˌnjuːkɑːsəl əˌpɒn ˈtaɪn/; Locally: i/njuːˌkæsəl əˌpən ˈtaɪn/), commonly known as Newcastle, is a city in Tyne and Wear, North East England, 103 miles (166 km) south of Edinburgh and 277 miles (446 km) north of London on the northern bank of the River Tyne, 8.5 mi (13.7 km) from the North Sea. Newcastle is the most populous city in the North East and Tyneside the eighth most populous conurbation in the United Kingdom. Newcastle is a member of the English Core Cities Group and is a member of the Eurocities network of European cities. Newcastle was part of the county of Northumberland until 1400, when it became a county itself, a status it retained until becoming part of Tyne and Wear in 1974.[not in citation given] The regional nickname and dialect for people from Newcastle and the surrounding area is Geordie.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19846",
+        "score": 0.032258,
+        "text": "According to the UK Government's returned 2001 census information, the city of Newcastle had a population of 189,863, whereas the metropolitan borough of Newcastle had a population of around 259,000. Newcastle has a population of 282,442 according to the Office for National Statistics. The metropolitan boroughs of North Tyneside (population circa 201,000), South Tyneside (population circa 148,000) and Gateshead (population circa 201,000) are, along with Newcastle, all part of the Tyneside conurbation (population circa 880,000). The metropolitan county of Tyne and Wear, which consists of the four aforementioned boroughs as well as the City of Sunderland (population circa 275,000), had a population of around 1,076,000 and the Tyne and Wear City Region which also includes North Durham, South East Northumberland and the Tyne Valley has a population of 1,650,000. Newcastle is also home to a large student population with Newcastle and Northumbria Universities in the local area. Areas with predominant student populations include Jesmond and Heaton.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_19862",
+        "score": 0.031746,
+        "text": "Newcastle has a horse racing course at Gosforth Park. The city is also home to the Newcastle Eagles basketball team who play their home games at the new Sport Central complex at Northumbria University. The Eagles are the most successful team in the history of the British Basketball League (BBL). The city's speedway team Newcastle Diamonds are based at Brough Park in Byker, a venue that is also home to greyhound racing. Newcastle also hosts the start of the annual Great North Run, the world's largest half-marathon in which participants race over the Tyne Bridge into Gateshead and then towards the finish line 13.1 miles (21.1 km) away on the coast at South Shields. Another famous athletic event is the 5.9-mile (9.5 km) Blaydon Race (a road race from Newcastle to Blaydon), which has taken place on 9 June annually since 1981, to commemorate the celebrated Blaydon Races horse racing.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "103",
+        "answer_start": 167,
+        "answer_end": 170,
+        "start_confidence": 0.9983,
+        "end_confidence": 0.7577,
+        "avg_confidence": 0.878,
+        "latency_ms": 11.3,
+        "answer_length_words": 1,
+        "context_length_words": 145,
+        "exact_match": false,
+        "token_f1": 66.7,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "103",
+        "answer_start": 167,
+        "answer_end": 170,
+        "start_confidence": 0.9942,
+        "end_confidence": 0.8375,
+        "avg_confidence": 0.9159,
+        "latency_ms": 9.3,
+        "answer_length_words": 1,
+        "context_length_words": 145,
+        "exact_match": false,
+        "token_f1": 66.7,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "103",
+        "answer_start": 167,
+        "answer_end": 170,
+        "start_confidence": 0.9994,
+        "end_confidence": 0.908,
+        "avg_confidence": 0.9537,
+        "latency_ms": 4.6,
+        "answer_length_words": 1,
+        "context_length_words": 145,
+        "exact_match": false,
+        "token_f1": 66.7,
+        "model_params_million": 66
+      }
+    }
+  },
+  {
+    "question": "where is the Victoria and Albert Museum located?",
+    "topic": "Victoria and Albert Museum",
+    "gold": "The V&A is located in the Brompton district of the Royal Borough of Kensington and Chelsea",
+    "gold_answers": [
+      "The V&A is located in the Brompton district of the Royal Borough of Kensington and Chelsea",
+      "London",
+      "in the Brompton district of the Royal Borough of Kensington and Chelsea"
+    ],
+    "query_complexity": "simple",
+    "top_k": 5,
+    "query_variants": [
+      "where is the Victoria and Albert Museum located?",
+      "Regarding where is the Victoria and Albert Museum located?"
+    ],
+    "evidence_doc_id": "doc_19880",
+    "evidence_score": 0.032787,
+    "evidence_text": "The Victoria and Albert Museum (often abbreviated as the V&A), London, is the world's largest museum of decorative arts and design, housing a permanent collection of over 4.5 million objects. It was founded in 1852 and named after Queen Victoria and Prince Albert. The V&A is located in the Brompton district of the Royal Borough of Kensington and Chelsea, in an area that has become known as \"Albertopolis\" because of its association with Prince Albert, the Albert Memorial and the major cultural institutions with which he was associated. These include the Natural History Museum, the Science Museum and the Royal Albert Hall. The museum is a non-departmental public body sponsored by the Department for Culture, Media and Sport. Like other national British museums, entrance to the museum has been free since 2001.",
+    "retrieval_hit": true,
+    "top_chunks": [
+      {
+        "doc_id": "doc_19880",
+        "score": 0.032787,
+        "text": "The Victoria and Albert Museum (often abbreviated as the V&A), London, is the world's largest museum of decorative arts and design, housing a permanent collection of over 4.5 million objects. It was founded in 1852 and named after Queen Victoria and Prince Albert. The V&A is located in the Brompton district of the Royal Borough of Kensington and Chelsea, in an area that has become known as \"Albertopolis\" because of its association with Prince Albert, the Albert Memorial and the major cultural institutions with which he was associated. These include the Natural History Museum, the Science Museum and the Royal Albert Hall. The museum is a non-departmental public body sponsored by the Department for Culture, Media and Sport. Like other national British museums, entrance to the museum has been free since 2001.",
+        "rank": 1
+      },
+      {
+        "doc_id": "doc_19907",
+        "score": 0.032258,
+        "text": "The National Art Library (also called Word and Image Department) at the Victoria and Albert Museum collection catalog used to be kept in different formats including printed exhibit catalogs, and card catalogs. A computer system called MODES cataloging system was used from the 1980s to the 1990s, but those electronic files were not available to the library users. All of the archival material at the National Art Library is using Encoded Archival Description (EAD). The Victoria and Albert Museum has a computer system but most of the items in the collection, unless those were newly accessioned into the collection, probably do not show up in the computer system. There is a feature on the Victoria and Albert Museum web-site called \"Search the Collections,\" but not everything is listed there.",
+        "rank": 2
+      },
+      {
+        "doc_id": "doc_6216",
+        "score": 0.031746,
+        "text": "The Great Exhibition was organised by Prince Albert, Henry Cole, Francis Fuller and other members of the Royal Society for the Encouragement of Arts, Manufactures and Commerce. The Great Exhibition made a surplus of £186,000 used in creating an area in the South of Kensington celebrating the encouragement of the arts, industry, and science. Albert insisted the Great Exhibition surplus should be used as a home for culture and education for everyone. His commitment was to find practical solutions to today's social challenges. Prince Albert's vision built the Victoria and Albert Museum, Science Museum, Natural History Museum, Geological Museum, Royal College of Science, Royal College of Art, Royal School of Mines, Royal School of Music, Royal College of Organists, Royal School of Needlework, Royal Geographical Society, Institute of Recorded Sound, Royal Horticultural Gardens, Royal Albert Hall and the Imperial Institute. Royal colleges and the Imperial Institute merged to form what is now Imperial College London.",
+        "rank": 3
+      }
+    ],
+    "answers": {
+      "roberta-base": {
+        "answer": "London",
+        "answer_start": 63,
+        "answer_end": 69,
+        "start_confidence": 0.4597,
+        "end_confidence": 0.4676,
+        "avg_confidence": 0.4637,
+        "latency_ms": 8.1,
+        "answer_length_words": 1,
+        "context_length_words": 132,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 125
+      },
+      "bert-base-uncased": {
+        "answer": "Brompton district of the Royal Borough of Kensington and Chelsea",
+        "answer_start": 291,
+        "answer_end": 355,
+        "start_confidence": 0.4805,
+        "end_confidence": 0.805,
+        "avg_confidence": 0.6428,
+        "latency_ms": 8.5,
+        "answer_length_words": 10,
+        "context_length_words": 132,
+        "exact_match": false,
+        "token_f1": 94.7,
+        "model_params_million": 110
+      },
+      "distilbert-base-uncased": {
+        "answer": "London",
+        "answer_start": 63,
+        "answer_end": 69,
+        "start_confidence": 0.6884,
+        "end_confidence": 0.6442,
+        "avg_confidence": 0.6663,
+        "latency_ms": 4.1,
+        "answer_length_words": 1,
+        "context_length_words": 132,
+        "exact_match": true,
+        "token_f1": 100.0,
+        "model_params_million": 66
+      }
+    }
+  }
+]

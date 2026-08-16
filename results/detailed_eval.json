@@ -1,0 +1,687 @@
+{
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "pytorch": "2.12.0.dev20260408+cu128",
+  "cuda": "12.8",
+  "n_sample": 24,
+  "generated_at": "2026-08-16T14:54:10",
+  "models": {
+    "RoBERTa-base": {
+      "key": "roberta-base",
+      "params": 125,
+      "predictions": [
+        {
+          "question": "Which NFL team represented the AFC at Super Bowl 50?",
+          "gold": "Denver Broncos",
+          "pred": "Denver Broncos",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.894,
+          "lat": 8.9
+        },
+        {
+          "question": "What was Maria Curie the first female recipient of?",
+          "gold": "Nobel Prize",
+          "pred": "Nobel Prize",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.803,
+          "lat": 7.9
+        },
+        {
+          "question": "In what country is Normandy located?",
+          "gold": "France",
+          "pred": "France",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.997,
+          "lat": 8.0
+        },
+        {
+          "question": "In what year was Nikola Tesla born? ",
+          "gold": "1856",
+          "pred": "1856",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.957,
+          "lat": 6.3
+        },
+        {
+          "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+          "gold": "Computational complexity theory",
+          "pred": "Computational complexity theory",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.995,
+          "lat": 6.6
+        },
+        {
+          "question": "What is a course of study called?",
+          "gold": "curriculum",
+          "pred": "the curriculum",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.872,
+          "lat": 6.8
+        },
+        {
+          "question": "Of what nationality was Martin Luther?",
+          "gold": "German",
+          "pred": "German",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.989,
+          "lat": 9.7
+        },
+        {
+          "question": "What is Southern California often abbreviated as?",
+          "gold": "SoCal",
+          "pred": "SoCal",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.992,
+          "lat": 7.0
+        },
+        {
+          "question": "What company was formed by the merger of Sky Television and British Satellite Broadcasting?",
+          "gold": "BSkyB",
+          "pred": "BSkyB",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.939,
+          "lat": 6.6
+        },
+        {
+          "question": "What kind of economy does Victoria have?",
+          "gold": "highly diversified",
+          "pred": "highly diversified",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.884,
+          "lat": 9.3
+        },
+        {
+          "question": "Where was France's Huguenot population largely centered?",
+          "gold": "southern and central parts of France,",
+          "pred": "southern and central parts of France",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.646,
+          "lat": 7.4
+        },
+        {
+          "question": "Along with geothermal and nuclear, what is a notable non-combustion heat source?",
+          "gold": "solar",
+          "pred": "solar power",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.962,
+          "lat": 6.8
+        },
+        {
+          "question": "The atomic number of the periodic table for oxygen?",
+          "gold": "8",
+          "pred": "8",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.998,
+          "lat": 9.2
+        },
+        {
+          "question": "When did the 1973 oil crisis begin?",
+          "gold": "1973",
+          "pred": "October 1973",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.974,
+          "lat": 7.7
+        },
+        {
+          "question": "What project put the first Americans into space?",
+          "gold": "Project Mercury",
+          "pred": "Project Mercury",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.942,
+          "lat": 8.1
+        },
+        {
+          "question": "What are the three sources of European Union law?",
+          "gold": "primary law, secondary law and supplementary law.",
+          "pred": "primary law, secondary law and supplementary law",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.972,
+          "lat": 7.9
+        },
+        {
+          "question": "Which name is also used to describe the Amazon rainforest in English?",
+          "gold": "Amazonia",
+          "pred": "Amazonia",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.706,
+          "lat": 11.5
+        },
+        {
+          "question": "What are Ctenophora commonly known as?",
+          "gold": "comb jellies",
+          "pred": "comb jellies",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.963,
+          "lat": 11.5
+        },
+        {
+          "question": "Which city is the fifth-largest city in California?",
+          "gold": "Fresno",
+          "pred": "Fresno",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.978,
+          "lat": 8.3
+        },
+        {
+          "question": "What did Paul Baran develop ",
+          "gold": "Distributed Adaptive Message Block Switching",
+          "pred": "Distributed Adaptive Message Block Switching",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.747,
+          "lat": 8.1
+        },
+        {
+          "question": "Where did the black death originate?",
+          "gold": "the arid plains of Central Asia",
+          "pred": "Central Asia",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.683,
+          "lat": 7.7
+        },
+        {
+          "question": "An igneous rock is a rock that crystallizes from what?",
+          "gold": "melt (magma and/or lava)",
+          "pred": "melt",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.783,
+          "lat": 9.2
+        },
+        {
+          "question": "How many miles south of Edinburgh is Newcastle?",
+          "gold": "103 miles",
+          "pred": "103",
+          "em": false,
+          "f1": 66.7,
+          "conf": 0.878,
+          "lat": 10.9
+        },
+        {
+          "question": "where is the Victoria and Albert Museum located?",
+          "gold": "The V&A is located in the Brompton district of the Royal Borough of Kensington and Chelsea",
+          "pred": "London",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.464,
+          "lat": 8.6
+        }
+      ],
+      "exact_match": 95.8,
+      "f1": 98.6,
+      "avg_latency_ms": 8.3,
+      "avg_confidence": 0.876
+    },
+    "BERT-base": {
+      "key": "bert-base-uncased",
+      "params": 110,
+      "predictions": [
+        {
+          "question": "Which NFL team represented the AFC at Super Bowl 50?",
+          "gold": "Denver Broncos",
+          "pred": "Denver Broncos",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.82,
+          "lat": 7.7
+        },
+        {
+          "question": "What was Maria Curie the first female recipient of?",
+          "gold": "Nobel Prize",
+          "pred": "Nobel Prize",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.868,
+          "lat": 7.7
+        },
+        {
+          "question": "In what country is Normandy located?",
+          "gold": "France",
+          "pred": "France",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.995,
+          "lat": 7.9
+        },
+        {
+          "question": "In what year was Nikola Tesla born? ",
+          "gold": "1856",
+          "pred": "1856",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.967,
+          "lat": 7.6
+        },
+        {
+          "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+          "gold": "Computational complexity theory",
+          "pred": "Computational complexity theory",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.976,
+          "lat": 6.7
+        },
+        {
+          "question": "What is a course of study called?",
+          "gold": "curriculum",
+          "pred": "the curriculum",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.785,
+          "lat": 6.4
+        },
+        {
+          "question": "Of what nationality was Martin Luther?",
+          "gold": "German",
+          "pred": "German",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.588,
+          "lat": 9.0
+        },
+        {
+          "question": "What is Southern California often abbreviated as?",
+          "gold": "SoCal",
+          "pred": "SoCal",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.996,
+          "lat": 6.1
+        },
+        {
+          "question": "What company was formed by the merger of Sky Television and British Satellite Broadcasting?",
+          "gold": "BSkyB",
+          "pred": "BSkyB",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.989,
+          "lat": 6.1
+        },
+        {
+          "question": "What kind of economy does Victoria have?",
+          "gold": "highly diversified",
+          "pred": "highly diversified",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.643,
+          "lat": 9.4
+        },
+        {
+          "question": "Where was France's Huguenot population largely centered?",
+          "gold": "southern and central parts of France,",
+          "pred": "southern and central parts",
+          "em": false,
+          "f1": 80.0,
+          "conf": 0.753,
+          "lat": 7.1
+        },
+        {
+          "question": "Along with geothermal and nuclear, what is a notable non-combustion heat source?",
+          "gold": "solar",
+          "pred": "solar power",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.976,
+          "lat": 6.7
+        },
+        {
+          "question": "The atomic number of the periodic table for oxygen?",
+          "gold": "8",
+          "pred": "8",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.99,
+          "lat": 8.7
+        },
+        {
+          "question": "When did the 1973 oil crisis begin?",
+          "gold": "1973",
+          "pred": "October 1973",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.992,
+          "lat": 7.8
+        },
+        {
+          "question": "What project put the first Americans into space?",
+          "gold": "Project Mercury",
+          "pred": "Project Mercury",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.752,
+          "lat": 7.4
+        },
+        {
+          "question": "What are the three sources of European Union law?",
+          "gold": "primary law, secondary law and supplementary law.",
+          "pred": "primary law, secondary law and supplementary law",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.949,
+          "lat": 7.6
+        },
+        {
+          "question": "Which name is also used to describe the Amazon rainforest in English?",
+          "gold": "Amazonia",
+          "pred": "Amazonia or the Amazon Jungle",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.763,
+          "lat": 9.8
+        },
+        {
+          "question": "What are Ctenophora commonly known as?",
+          "gold": "comb jellies",
+          "pred": "comb jellies",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.997,
+          "lat": 11.6
+        },
+        {
+          "question": "Which city is the fifth-largest city in California?",
+          "gold": "Fresno",
+          "pred": "Fresno",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.969,
+          "lat": 7.8
+        },
+        {
+          "question": "What did Paul Baran develop ",
+          "gold": "Distributed Adaptive Message Block Switching",
+          "pred": "Distributed Adaptive Message Block Switching with the goal to provide a fault-tolerant, efficient routing method for telecommunication messages",
+          "em": false,
+          "f1": 47.6,
+          "conf": 0.326,
+          "lat": 7.8
+        },
+        {
+          "question": "Where did the black death originate?",
+          "gold": "the arid plains of Central Asia",
+          "pred": "arid plains of Central Asia",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.712,
+          "lat": 7.8
+        },
+        {
+          "question": "An igneous rock is a rock that crystallizes from what?",
+          "gold": "melt (magma and/or lava)",
+          "pred": "melt",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.834,
+          "lat": 9.6
+        },
+        {
+          "question": "How many miles south of Edinburgh is Newcastle?",
+          "gold": "103 miles",
+          "pred": "103",
+          "em": false,
+          "f1": 66.7,
+          "conf": 0.916,
+          "lat": 8.8
+        },
+        {
+          "question": "where is the Victoria and Albert Museum located?",
+          "gold": "The V&A is located in the Brompton district of the Royal Borough of Kensington and Chelsea",
+          "pred": "Brompton district of the Royal Borough of Kensington and Chelsea",
+          "em": false,
+          "f1": 94.7,
+          "conf": 0.643,
+          "lat": 7.6
+        }
+      ],
+      "exact_match": 83.3,
+      "f1": 95.4,
+      "avg_latency_ms": 7.9,
+      "avg_confidence": 0.842
+    },
+    "DistilBERT-base": {
+      "key": "distilbert-base-uncased",
+      "params": 66,
+      "predictions": [
+        {
+          "question": "Which NFL team represented the AFC at Super Bowl 50?",
+          "gold": "Denver Broncos",
+          "pred": "Denver Broncos",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.541,
+          "lat": 4.1
+        },
+        {
+          "question": "What was Maria Curie the first female recipient of?",
+          "gold": "Nobel Prize",
+          "pred": "Nobel Prize",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.801,
+          "lat": 3.8
+        },
+        {
+          "question": "In what country is Normandy located?",
+          "gold": "France",
+          "pred": "France",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.999,
+          "lat": 4.5
+        },
+        {
+          "question": "In what year was Nikola Tesla born? ",
+          "gold": "1856",
+          "pred": "1856",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.944,
+          "lat": 3.3
+        },
+        {
+          "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+          "gold": "Computational complexity theory",
+          "pred": "Computational complexity theory",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.855,
+          "lat": 3.3
+        },
+        {
+          "question": "What is a course of study called?",
+          "gold": "curriculum",
+          "pred": "the curriculum",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.73,
+          "lat": 3.4
+        },
+        {
+          "question": "Of what nationality was Martin Luther?",
+          "gold": "German",
+          "pred": "German",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.919,
+          "lat": 4.7
+        },
+        {
+          "question": "What is Southern California often abbreviated as?",
+          "gold": "SoCal",
+          "pred": "SoCal",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.987,
+          "lat": 3.6
+        },
+        {
+          "question": "What company was formed by the merger of Sky Television and British Satellite Broadcasting?",
+          "gold": "BSkyB",
+          "pred": "BSkyB",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.906,
+          "lat": 3.8
+        },
+        {
+          "question": "What kind of economy does Victoria have?",
+          "gold": "highly diversified",
+          "pred": "highly diversified",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.79,
+          "lat": 4.6
+        },
+        {
+          "question": "Where was France's Huguenot population largely centered?",
+          "gold": "southern and central parts of France,",
+          "pred": "southern and central parts of France",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.672,
+          "lat": 4.6
+        },
+        {
+          "question": "Along with geothermal and nuclear, what is a notable non-combustion heat source?",
+          "gold": "solar",
+          "pred": "solar power",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.917,
+          "lat": 3.7
+        },
+        {
+          "question": "The atomic number of the periodic table for oxygen?",
+          "gold": "8",
+          "pred": "8",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.973,
+          "lat": 4.7
+        },
+        {
+          "question": "When did the 1973 oil crisis begin?",
+          "gold": "1973",
+          "pred": "October 1973",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.989,
+          "lat": 3.8
+        },
+        {
+          "question": "What project put the first Americans into space?",
+          "gold": "Project Mercury",
+          "pred": "Mercury",
+          "em": false,
+          "f1": 66.7,
+          "conf": 0.701,
+          "lat": 4.8
+        },
+        {
+          "question": "What are the three sources of European Union law?",
+          "gold": "primary law, secondary law and supplementary law.",
+          "pred": "primary law, secondary law and supplementary law",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.939,
+          "lat": 3.9
+        },
+        {
+          "question": "Which name is also used to describe the Amazon rainforest in English?",
+          "gold": "Amazonia",
+          "pred": "Amazonia",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.701,
+          "lat": 4.7
+        },
+        {
+          "question": "What are Ctenophora commonly known as?",
+          "gold": "comb jellies",
+          "pred": "comb jellies",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.987,
+          "lat": 6.2
+        },
+        {
+          "question": "Which city is the fifth-largest city in California?",
+          "gold": "Fresno",
+          "pred": "Fresno",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.982,
+          "lat": 4.2
+        },
+        {
+          "question": "What did Paul Baran develop ",
+          "gold": "Distributed Adaptive Message Block Switching",
+          "pred": "Distributed Adaptive Message Block Switching",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.824,
+          "lat": 4.4
+        },
+        {
+          "question": "Where did the black death originate?",
+          "gold": "the arid plains of Central Asia",
+          "pred": "Central Asia",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.655,
+          "lat": 4.0
+        },
+        {
+          "question": "An igneous rock is a rock that crystallizes from what?",
+          "gold": "melt (magma and/or lava)",
+          "pred": "melt",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.883,
+          "lat": 5.1
+        },
+        {
+          "question": "How many miles south of Edinburgh is Newcastle?",
+          "gold": "103 miles",
+          "pred": "103",
+          "em": false,
+          "f1": 66.7,
+          "conf": 0.954,
+          "lat": 4.9
+        },
+        {
+          "question": "where is the Victoria and Albert Museum located?",
+          "gold": "The V&A is located in the Brompton district of the Royal Borough of Kensington and Chelsea",
+          "pred": "London",
+          "em": true,
+          "f1": 100.0,
+          "conf": 0.666,
+          "lat": 4.6
+        }
+      ],
+      "exact_match": 91.7,
+      "f1": 97.2,
+      "avg_latency_ms": 4.3,
+      "avg_confidence": 0.846
+    }
+  }
+}
