@@ -10,24 +10,35 @@ function CountUp({ target, decimals = 0, suffix = "" }: { target: number; decima
   const [value, setValue] = useState(0);
   const ref = useRef<HTMLSpanElement>(null);
   useEffect(() => {
+    const animate = () => {
+      clearTimeout(fallback);
+      const duration = 1800;
+      const start = performance.now();
+      const tick = (now: number) => {
+        const progress = Math.min((now - start) / duration, 1);
+        const ease = 1 - Math.pow(1 - progress, 3);
+        setValue(parseFloat((target * ease).toFixed(decimals)));
+        if (progress < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    };
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (!entry.isIntersecting) return;
         observer.disconnect();
-        const duration = 1800;
-        const start = performance.now();
-        const tick = (now: number) => {
-          const progress = Math.min((now - start) / duration, 1);
-          const ease = 1 - Math.pow(1 - progress, 3);
-          setValue(parseFloat((target * ease).toFixed(decimals)));
-          if (progress < 1) requestAnimationFrame(tick);
-        };
-        requestAnimationFrame(tick);
+        animate();
       },
       { threshold: 0.3 }
     );
     if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
+    // Safety net: if the observer never fires (page opened in a background tab,
+    // reduced-motion/headless environments), show the real number anyway rather
+    // than leaving the headline stat at zero.
+    const fallback = setTimeout(() => {
+      observer.disconnect();
+      setValue(target);
+    }, 3000);
+    return () => { observer.disconnect(); clearTimeout(fallback); };
   }, [target, decimals]);
   return <span ref={ref}>{value.toFixed(decimals)}{suffix}</span>;
 }

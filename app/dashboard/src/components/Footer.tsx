@@ -29,6 +29,12 @@ export default function Footer() {
             </svg>
             GitHub Repository
           </a>
+          <a href="https://semantic-research-assistant-a17.vercel.app"
+            target="_blank" rel="noopener noreferrer"
+            className="text-xs font-mono no-underline transition-colors"
+            style={{ color: "var(--accent-cyan)" }}>
+            semantic-research-assistant-a17.vercel.app
+          </a>
           <div className="text-xs font-mono" style={{ color: "var(--text-muted)" }}>
             Dataset: SQuAD v1.1 · CC BY-SA 4.0
           </div>

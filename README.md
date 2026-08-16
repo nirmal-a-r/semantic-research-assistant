@@ -8,7 +8,7 @@
 
 > **Retrieval-first, evidence-grounded, explainable question answering over SQuAD v1.1**
 
-### 🔗 Live dashboard — https://nirmal-a-r.github.io/semantic-research-assistant/
+### 🔗 Live dashboard — https://semantic-research-assistant-a17.vercel.app
 
 Fully static: every chart, table and demo answer is precomputed from the real GPU run,
 so the site works with no backend running.
@@ -251,24 +251,42 @@ python scripts/build_dashboard_data.py --rerun-inference
 
 ## Deployment (permanent URL, no backend)
 
-The dashboard is exported as a fully static site and hosted on GitHub Pages:
+The dashboard is deployed on Vercel:
 
-**https://nirmal-a-r.github.io/semantic-research-assistant/**
+**https://semantic-research-assistant-a17.vercel.app**
 
-Every push to `main` triggers `.github/workflows/deploy.yml`, which builds the static export
-and publishes it — so the live site always matches the committed `results/`.
+Mirrors (same deployment):
+`adaptive-hybrid-semantic-research-assistant.vercel.app` ·
+`hybrid-semantic-research-assistant.vercel.app`
 
-Build it locally the same way CI does:
+Redeploy after refreshing the data:
+
+```bash
+python scripts/build_dashboard_data.py
+```
+```bash
+cd app/dashboard && npx vercel deploy --prod
+```
+
+Connecting the GitHub repo in the Vercel dashboard (Root Directory = `app/dashboard`)
+makes every push to `main` redeploy automatically.
+
+### Alternative: GitHub Pages
+
+`.github/workflows/deploy.yml` publishes the same site to
+`https://nirmal-a-r.github.io/semantic-research-assistant/` on every push to `main`.
+It needs the repository to be public (GitHub Pages does not serve private repos on the
+free plan). Pages serves from a sub-path, so that build sets `BASE_PATH`:
 
 ```bash
 cd app/dashboard
 STATIC_EXPORT=true BASE_PATH=/semantic-research-assistant npm run build:static
-# -> app/dashboard/out/   (open out/index.html through any static server)
+# -> app/dashboard/out/
 ```
 
-The static build has no server component: all metrics, charts, artefacts and demo answers
-are read from files in `public/`. The optional FastAPI backend is only needed for free-text
-questions during local development.
+Either way the site has no server component: all metrics, charts, artefacts and demo
+answers are read from files in `public/`. The FastAPI backend is only needed for
+free-text questions during local development.
 
 ## API Reference
 
