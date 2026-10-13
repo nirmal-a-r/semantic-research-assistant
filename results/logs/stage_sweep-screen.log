@@ -1,0 +1,54 @@
+
+===== sweep-screen attempt 1 at 23:35:54 =====
+[23:35:56] resuming: 1 configurations already done
+[23:36:09] device cuda, confirm stage, n=500
+[23:36:23] 20958 passages, 500 questions
+[23:36:23] 23288 chunks
+[23:36:23] skip all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single
+[23:36:23] building BM25 (passages)
+[23:36:24] encoding with sentence-transformers/all-MiniLM-L6-v2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3642.64it/s]
+[23:37:00]   indexed 20958 vectors (dim 384) in 36s
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2958.72it/s]
+[23:37:03] running all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c50|r30|passage|single
+[23:39:16]   all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c50|r30|passage|single: R@10 97.60  R@20 97.80  MRR 83.96  NDCG 87.37  264 ms/q
+[23:39:16] encoding with BAAI/bge-base-en-v1.5
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights:  33%|███▎      | 65/199 [00:00<00:00, 624.28it/s]
+Loading weights:  74%|███████▍  | 147/199 [00:00<00:00, 732.04it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 785.04it/s]
+[23:42:17]   indexed 20958 vectors (dim 768) in 181s
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 3194.74it/s]
+[23:42:23] running bge-base-en-v1.5|ms-marco-MiniLM-L6-v2|c50|r30|passage|single
+[23:44:03]   bge-base-en-v1.5|ms-marco-MiniLM-L6-v2|c50|r30|passage|single: R@10 96.20  R@20 97.00  MRR 82.05  NDCG 85.56  200 ms/q
+[23:44:03] running bge-base-en-v1.5|ms-marco-MiniLM-L12-v2|c50|r30|passage|single
+[23:46:20]   bge-base-en-v1.5|ms-marco-MiniLM-L12-v2|c50|r30|passage|single: R@10 96.60  R@20 97.00  MRR 83.51  NDCG 86.78  273 ms/q
+[23:46:20] encoding with BAAI/bge-small-en-v1.5
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2670.45it/s]
+[23:47:31]   indexed 20958 vectors (dim 384) in 72s
+[23:47:31] running bge-small-en-v1.5|ms-marco-MiniLM-L6-v2|c50|r30|passage|single
+[23:49:12]   bge-small-en-v1.5|ms-marco-MiniLM-L6-v2|c50|r30|passage|single: R@10 96.80  R@20 97.00  MRR 82.28  NDCG 85.89  201 ms/q
+[23:49:12] running bge-small-en-v1.5|ms-marco-MiniLM-L12-v2|c50|r30|passage|single
+[23:51:30]   bge-small-en-v1.5|ms-marco-MiniLM-L12-v2|c50|r30|passage|single: R@10 96.80  R@20 97.00  MRR 83.81  NDCG 87.05  276 ms/q
+[23:51:30] encoding with intfloat/e5-base-v2
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights:  16%|█▌        | 32/199 [00:00<00:00, 280.86it/s]
+Loading weights:  31%|███       | 61/199 [00:00<00:00, 229.03it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 705.07it/s]
+[23:54:32]   indexed 20958 vectors (dim 768) in 182s
+[23:54:32] running e5-base-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single
+[23:56:13]   e5-base-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single: R@10 97.20  R@20 97.80  MRR 82.49  NDCG 86.14  202 ms/q
+[23:56:13] running e5-base-v2|ms-marco-MiniLM-L12-v2|c50|r30|passage|single
+[23:58:31]   e5-base-v2|ms-marco-MiniLM-L12-v2|c50|r30|passage|single: R@10 97.60  R@20 97.80  MRR 84.09  NDCG 87.46  276 ms/q
+[23:58:31] sweep complete: 7 new configurations -> C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\results\sweep_screen.csv

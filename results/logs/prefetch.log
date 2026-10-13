@@ -1,0 +1,50 @@
+﻿python.exe : 
+At line:1 char:504
++ ... HUB_DISABLE_XET="1"; & $py -u scripts/prefetch_models.py *>&1 | Tee-O ...
++                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF 
+Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 14.67it/s]
+Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 14.67it/s]
+OK   sentence-transformers/all-MiniLM-L6-v2             92 MB in     2s
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 2001.26it/s]
+OK   cross-encoder/ms-marco-MiniLM-L6-v2                92 MB in     1s
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:02,  1.75it/s]
+Fetching 6 files:  33%|███▎      | 2/6 [00:01<00:02,  1.49it/s]
+Fetching 6 files:  50%|█████     | 3/6 [00:02<00:02,  1.05it/s]
+Fetching 6 files:  67%|██████▋   | 4/6 [00:03<00:01,  1.18it/s]
+Fetching 6 files:  83%|████████▎ | 5/6 [00:04<00:00,  1.12it/s]
+Fetching 6 files: 100%|██████████| 6/6 [01:43<00:00, 34.40s/it]
+Fetching 6 files: 100%|██████████| 6/6 [01:43<00:00, 17.29s/it]
+OK   cross-encoder/ms-marco-MiniLM-L12-v2              134 MB in   104s
+
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]
+[2026-10-12 22:02:49] attempt 1/5: C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Scripts\python.exe -u scripts/prefetch_models.py
+python.exe : 
+At line:1 char:504
++ ... LE_XET="1"; & $py -u scripts/supervise.py --attempts 5 --delay 20 --l ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]
+Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 701.61it/s]
+OK   sentence-transformers/all-MiniLM-L6-v2             92 MB in     1s
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 969.18it/s]
+OK   cross-encoder/ms-marco-MiniLM-L6-v2                92 MB in     1s
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 1097.12it/s]
+OK   cross-encoder/ms-marco-MiniLM-L12-v2              134 MB in     1s
+
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]

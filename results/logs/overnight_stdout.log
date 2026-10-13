@@ -1,0 +1,103 @@
+﻿[2026-10-12 22:06:49] === overnight run started ===
+[2026-10-12 22:06:49] prefetch: attempt 1/3
+python.exe : 
+At line:1 char:844
++ ...  -Format 'HH:mm:ss')"; & $py -u scripts/run_overnight.py *>&1 | Tee-O ...
++                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]
+Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 1818.22it/s]
+OK   sentence-transformers/all-MiniLM-L6-v2             92 MB in     1s
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 1925.91it/s]
+OK   cross-encoder/ms-marco-MiniLM-L6-v2                92 MB in     0s
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 820.99it/s]
+OK   cross-encoder/ms-marco-MiniLM-L12-v2              134 MB in     0s
+
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF 
+Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-10-12 22:07:20] === overnight run started ===
+[2026-10-12 22:07:20] prefetch: attempt 1/3
+python.exe : 
+At line:1 char:571
++ ... S_PARALLELISM="false"; & $py -u scripts/run_overnight.py *>&1 | Out-F ...
++                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]
+Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 1849.56it/s]
+OK   sentence-transformers/all-MiniLM-L6-v2             92 MB in     1s
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 445.26it/s]
+OK   cross-encoder/ms-marco-MiniLM-L6-v2                92 MB in     0s
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<?, ?it/s]
+OK   cross-encoder/ms-marco-MiniLM-L12-v2              134 MB in     0s
+
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF 
+Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-10-12 22:13:03] === overnight run started ===
+[2026-10-12 22:13:03] prefetch: attempt 1/3
+python.exe : 
+At line:1 char:609
++ ... S_PARALLELISM="false"; & $py -u scripts/run_overnight.py *>&1 | Out-F ...
++                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]
+Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 1903.98it/s]
+OK   sentence-transformers/all-MiniLM-L6-v2             92 MB in     1s
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 2493.15it/s]
+OK   cross-encoder/ms-marco-MiniLM-L6-v2                92 MB in     1s
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<?, ?it/s]
+OK   cross-encoder/ms-marco-MiniLM-L12-v2              134 MB in     0s
+
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF 
+Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 7 files: 100%|██████████| 7/7 [04:34<00:00, 39.25s/it]
+Fetching 7 files: 100%|██████████| 7/7 [04:34<00:00, 39.25s/it]
+OK   google/flan-t5-small                              311 MB in   275s
+
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]
+Fetching 10 files:  10%|█         | 1/10 [00:00<00:03,  2.68it/s]
+Fetching 10 files:  20%|██        | 2/10 [00:00<00:01,  4.67it/s]
+Fetching 10 files:  30%|███       | 3/10 [00:00<00:02,  2.94it/s]
+Fetching 10 files:  40%|████      | 4/10 [00:01<00:02,  2.86it/s]
+Fetching 10 files:  50%|█████     | 5/10 [00:01<00:01,  2.72it/s]
+Fetching 10 files:  60%|██████    | 6/10 [00:02<00:01,  2.72it/s]
+Fetching 10 files:  70%|███████   | 7/10 [00:02<00:01,  2.53it/s]
+Fetching 10 files:  80%|████████  | 8/10 [00:02<00:00,  2.70it/s]
+Fetching 10 files:  90%|█████████ | 9/10 [00:03<00:00,  2.66it/s]
+Fetching 10 files: 100%|██████████| 10/10 [10:35<00:00, 195.43s/it]
+Fetching 10 files: 100%|██████████| 10/10 [10:35<00:00, 63.55s/it] 
+OK   BAAI/bge-base-en-v1.5                             439 MB in   640s
+
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]
+Fetching 10 files:  10%|█         | 1/10 [00:00<00:05,  1.52it/s]
+Fetching 10 files:  20%|██        | 2/10 [00:00<00:02,  2.87it/s]
+Fetching 10 files:  30%|███       | 3/10 [00:01<00:02,  3.01it/s]
+Fetching 10 files:  40%|████      | 4/10 [00:01<00:02,  2.60it/s]
+Fetching 10 files:  50%|█████     | 5/10 [00:02<00:02,  2.41it/s]
+Fetching 10 files:  60%|██████    | 6/10 [00:02<00:01,  2.30it/s]
+Fetching 10 files:  70%|███████   | 7/10 [00:04<00:02,  1.24it/s]
+Fetching 10 files:  80%|████████  | 8/10 [00:04<00:01,  1.40it/s]
+Fetching 10 files:  90%|█████████ | 9/10 [00:06<00:01,  1.04s/it]
+Fetching 10 files: 100%|██████████| 10/10 [03:13<00:00, 58.62s/it]
+Fetching 10 files: 100%|██████████| 10/10 [03:13<00:00, 19.39s/it]
+OK   BAAI/bge-small-en-v1.5                            134 MB in   195s
+
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]

@@ -1,0 +1,7 @@
+Recall@10,Recall@20,MRR,NDCG@10,ms_per_question,config,n_questions,encoder,cross,candidates,rerank_k,chunked,mq
+96.25,96.65,85.2524128853173,87.96714973263339,163.71996140480042,all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single,2000,sentence-transformers/all-MiniLM-L6-v2,cross-encoder/ms-marco-MiniLM-L6-v2,50,30,False,False
+96.89999999999999,97.89999999999999,85.44486626011587,88.23465351809257,195.11550724506378,all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c100|r50|passage|single,2000,sentence-transformers/all-MiniLM-L6-v2,cross-encoder/ms-marco-MiniLM-L6-v2,100,50,False,False
+96.0,96.45,85.19644265456766,87.31941409828349,164.9855786561966,all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|chunk|single,2000,sentence-transformers/all-MiniLM-L6-v2,cross-encoder/ms-marco-MiniLM-L6-v2,50,30,True,False
+96.1,96.45,85.25965274921157,87.94774147067729,160.3193871974945,all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|chunk|single|dedup,2000,sentence-transformers/all-MiniLM-L6-v2,cross-encoder/ms-marco-MiniLM-L6-v2,50,30,True,False,True
+96.25,96.7,85.18800000652942,87.91451435864998,293.6511527299881,all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|mq,2000,sentence-transformers/all-MiniLM-L6-v2,cross-encoder/ms-marco-MiniLM-L6-v2,50,30,False,True
+96.25,96.65,85.2524128853173,87.96714973263339,162.68424355983734,all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single,2000,sentence-transformers/all-MiniLM-L6-v2,cross-encoder/ms-marco-MiniLM-L6-v2,50,30,False,False

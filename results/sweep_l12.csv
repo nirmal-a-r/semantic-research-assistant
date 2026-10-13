@@ -1,0 +1,5 @@
+config,n_questions,encoder,cross,candidates,rerank_k,chunked,mq,dedup,Recall@10,Recall@20,MRR,NDCG@10,ms_per_question
+all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c50|r30|passage|single,2000,sentence-transformers/all-MiniLM-L6-v2,cross-encoder/ms-marco-MiniLM-L12-v2,50,30,False,False,False,96.45,96.7,86.16752326105266,88.72576652899087,229.8923213481903
+all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c100|r50|passage|single,2000,sentence-transformers/all-MiniLM-L6-v2,cross-encoder/ms-marco-MiniLM-L12-v2,100,50,False,False,False,97.25,97.85000000000001,86.52203839869281,89.16774871250115,283.7406185865402
+e5-base-v2|ms-marco-MiniLM-L12-v2|c100|r50|passage|single,2000,intfloat/e5-base-v2,cross-encoder/ms-marco-MiniLM-L12-v2,100,50,False,False,False,97.5,98.35000000000001,86.79393762584165,89.41812837897777,296.41913306713104
+all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c100|r50|chunk|single|dedup,2000,sentence-transformers/all-MiniLM-L6-v2,cross-encoder/ms-marco-MiniLM-L12-v2,100,50,True,False,True,97.1,97.85000000000001,86.68672752385214,89.2544778154779,228.24768543243408

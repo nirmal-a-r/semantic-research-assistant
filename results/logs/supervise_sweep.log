@@ -1,0 +1,3 @@
+[2026-10-12 22:02:50] attempt 1/6: C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Scripts\python.exe -u scripts/sweep_retrieval.py --stage confirm --n 500 --out results/sweep_screen.csv
+[2026-10-12 22:06:13] attempt 1 exited 1 after 3.4 min
+[2026-10-12 22:06:43] attempt 2/6: C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Scripts\python.exe -u scripts/sweep_retrieval.py --stage confirm --n 500 --out results/sweep_screen.csv
