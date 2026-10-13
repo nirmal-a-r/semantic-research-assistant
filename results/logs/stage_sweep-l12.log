@@ -1,0 +1,75 @@
+
+===== sweep-l12 attempt 1 at 03:24:50 =====
+[03:25:04] device cuda, confirm stage, n=2000
+[03:25:06] 20958 passages, 2000 questions
+[03:25:07] 23288 chunks
+[03:25:07] building BM25 (passages)
+[03:25:08] encoding with sentence-transformers/all-MiniLM-L6-v2
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7365.83it/s]
+[03:25:36]   indexed 20958 vectors (dim 384) in 28s
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 3655.57it/s]
+[03:25:36] running all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c50|r30|passage|single
+Traceback (most recent call last):
+  File "C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\scripts\sweep_retrieval.py", line 206, in <module>
+    main()
+  File "C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\scripts\sweep_retrieval.py", line 187, in main
+    metrics = run_config(cfg, eval_pairs, bm25_cache[cfg["chunked"]], dense_cache[key],
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\scripts\sweep_retrieval.py", line 82, in run_config
+    scores = cross_encoder.predict(pairs, show_progress_bar=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Lib\site-packages\sentence_transformers\util\decorators.py", line 46, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Lib\site-packages\sentence_transformers\util\decorators.py", line 203, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Lib\site-packages\sentence_transformers\cross_encoder\model.py", line 744, in predict
+    pred_scores = np.asarray([score.cpu().detach().float().numpy() for score in pred_scores])
+                              ^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+
+
+===== sweep-l12 attempt 2 at 03:26:11 =====
+[03:26:23] device cuda, confirm stage, n=2000
+[03:26:25] 20958 passages, 2000 questions
+[03:26:25] 23288 chunks
+[03:26:25] building BM25 (passages)
+[03:26:26] encoding with sentence-transformers/all-MiniLM-L6-v2
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 6578.25it/s]
+[03:26:56]   indexed 20958 vectors (dim 384) in 29s
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 4389.54it/s]
+[03:26:56] running all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c50|r30|passage|single
+[03:34:36]   all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c50|r30|passage|single: R@10 96.45  R@20 96.70  MRR 86.17  NDCG 88.73  230 ms/q
+[03:34:36] running all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c100|r50|passage|single
+[03:44:03]   all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c100|r50|passage|single: R@10 97.25  R@20 97.85  MRR 86.52  NDCG 89.17  284 ms/q
+[03:44:03] encoding with intfloat/e5-base-v2
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights:  14%|█▍        | 28/199 [00:00<00:00, 267.52it/s]
+Loading weights:  28%|██▊       | 55/199 [00:00<00:00, 252.53it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 842.41it/s]
+[03:46:48]   indexed 20958 vectors (dim 768) in 165s
+[03:46:48] running e5-base-v2|ms-marco-MiniLM-L12-v2|c100|r50|passage|single
+[03:56:41]   e5-base-v2|ms-marco-MiniLM-L12-v2|c100|r50|passage|single: R@10 97.50  R@20 98.35  MRR 86.79  NDCG 89.42  296 ms/q
+[03:56:41] building BM25 (chunks)
+[03:56:42] encoding with sentence-transformers/all-MiniLM-L6-v2
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5739.90it/s]
+[03:57:15]   indexed 23288 vectors (dim 384) in 33s
+[03:57:15] running all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c100|r50|chunk|single|dedup
+[04:04:51]   all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c100|r50|chunk|single|dedup: R@10 97.10  R@20 97.85  MRR 86.69  NDCG 89.25  228 ms/q
+[04:04:51] sweep complete: 4 new configurations -> C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\results\sweep_l12.csv

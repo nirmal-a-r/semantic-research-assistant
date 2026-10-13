@@ -99,7 +99,7 @@ export default function Hero() {
 
   // All metrics in project_data.json are already percentages — render as-is.
   const cards = [
-    { label: "Recall@10", value: stats.recall10, decimals: 2, suffix: "%" },
+    { label: "Recall@10", value: stats.recall10Best, decimals: 2, suffix: "%" },
     { label: "Best EM", value: stats.bestEM, decimals: 2, suffix: "%" },
     { label: "Best F1", value: stats.bestF1, decimals: 2, suffix: "%" },
     { label: "QA Pairs", value: stats.totalQAPairs, decimals: 0, suffix: "" },

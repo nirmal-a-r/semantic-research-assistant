@@ -1,0 +1,215 @@
+{
+  "generated_at": "2026-10-13T04:38:29",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.14.1+cu126",
+  "n_questions": 2000,
+  "corpus_passages": 20958,
+  "config": {
+    "candidate_k": 50,
+    "rerank_k": 30,
+    "eval_top_k": 20,
+    "max_variants": 3,
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "cross_encoder": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "t5_models": "google/flan-t5-small,humarin/chatgpt_paraphraser_on_T5_base"
+  },
+  "results": {
+    "+ Re-ranking (no multi-query)": {
+      "Recall@10": 96.25,
+      "Recall@20": 96.65,
+      "MRR": 85.2524128853173,
+      "NDCG@10": 87.96714973263339,
+      "retrieval_ms_per_question": 156.77787482738495,
+      "retrieval_total_s": 313.5557496547699,
+      "variant_gen_ms_per_question": 0.0,
+      "mean_variants": 1.0,
+      "ms_per_question": 156.77787482738495
+    },
+    "+ Multi-query (rules)": {
+      "Recall@10": 96.25,
+      "Recall@20": 96.7,
+      "MRR": 85.18800000652942,
+      "NDCG@10": 87.91451435864998,
+      "retrieval_ms_per_question": 275.1412835121155,
+      "retrieval_total_s": 550.282567024231,
+      "variant_gen_ms_per_question": 0.0,
+      "mean_variants": 2.2315,
+      "ms_per_question": 275.1412835121155
+    },
+    "+ Multi-query (flan-t5-small)": {
+      "Recall@10": 96.05,
+      "Recall@20": 96.5,
+      "MRR": 85.14300000652942,
+      "NDCG@10": 87.83033174183063,
+      "retrieval_ms_per_question": 176.92264008522034,
+      "retrieval_total_s": 353.8452801704407,
+      "variant_gen_ms_per_question": 23.073137760162354,
+      "mean_variants": 1.248,
+      "ms_per_question": 199.9957778453827
+    },
+    "+ Multi-query (chatgpt_paraphraser_on_T5_base)": {
+      "Recall@10": 95.45,
+      "Recall@20": 95.85000000000001,
+      "MRR": 84.78165565643506,
+      "NDCG@10": 87.4147056124953,
+      "retrieval_ms_per_question": 334.24485766887665,
+      "retrieval_total_s": 668.4897153377533,
+      "variant_gen_ms_per_question": 18.95760679244995,
+      "mean_variants": 2.7845,
+      "ms_per_question": 353.2024644613266
+    }
+  },
+  "variant_examples": [
+    {
+      "question": "Which NFL team represented the AFC at Super Bowl 50?",
+      "rules": [
+        "Which NFL team represented the AFC at Super Bowl 50?",
+        "Regarding which NFL team represented the AFC at Super Bowl 50?"
+      ],
+      "flan-t5-small": [
+        "Which NFL team represented the AFC at Super Bowl 50?"
+      ],
+      "chatgpt_paraphraser_on_T5_base": [
+        "Which NFL team represented the AFC at Super Bowl 50?",
+        "What NFL team participated in Super Bowl 50 for the AFC?",
+        "Who were the NFL players that competed for the AFC in Super Bowl 50?"
+      ]
+    },
+    {
+      "question": "Which NFL team represented the NFC at Super Bowl 50?",
+      "rules": [
+        "Which NFL team represented the NFC at Super Bowl 50?",
+        "Regarding which NFL team represented the NFC at Super Bowl 50?"
+      ],
+      "flan-t5-small": [
+        "Which NFL team represented the NFC at Super Bowl 50?"
+      ],
+      "chatgpt_paraphraser_on_T5_base": [
+        "Which NFL team represented the NFC at Super Bowl 50?",
+        "Who were the NFL players that competed in Super Bowl 50 of the NFC?",
+        "Which NFL players competed in Super Bowl 50 for the NFC?"
+      ]
+    },
+    {
+      "question": "Where did Super Bowl 50 take place?",
+      "rules": [
+        "Where did Super Bowl 50 take place?",
+        "Regarding where did Super Bowl 50 take place?"
+      ],
+      "flan-t5-small": [
+        "Where did Super Bowl 50 take place?"
+      ],
+      "chatgpt_paraphraser_on_T5_base": [
+        "Where did Super Bowl 50 take place?",
+        "What was the site of Super Bowl 50?",
+        "Where was Super Bowl 50 held?"
+      ]
+    },
+    {
+      "question": "Which NFL team won Super Bowl 50?",
+      "rules": [
+        "Which NFL team won Super Bowl 50?",
+        "Regarding which NFL team won Super Bowl 50?"
+      ],
+      "flan-t5-small": [
+        "Which NFL team won Super Bowl 50?"
+      ],
+      "chatgpt_paraphraser_on_T5_base": [
+        "Which NFL team won Super Bowl 50?",
+        "Which team was crowned the champion of Super Bowl 50 in the NFL?",
+        "Which team was crowned the winner of Super Bowl 50 in the NFL?"
+      ]
+    },
+    {
+      "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+      "rules": [
+        "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+        "Regarding what color was used to emphasize the 50th anniversary of the Super Bowl?"
+      ],
+      "flan-t5-small": [
+        "What color was used to emphasize the 50th anniversary of the Super Bowl?"
+      ],
+      "chatgpt_paraphraser_on_T5_base": [
+        "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+        "What was the color that represented the Super Bowl's 50th anniversary?",
+        "What color was chosen to symbolize the Super Bowl's 50th anniversary?"
+      ]
+    },
+    {
+      "question": "What was the theme of Super Bowl 50?",
+      "rules": [
+        "What was the theme of Super Bowl 50?",
+        "Regarding what was the theme of Super Bowl 50?"
+      ],
+      "flan-t5-small": [
+        "What was the theme of Super Bowl 50?"
+      ],
+      "chatgpt_paraphraser_on_T5_base": [
+        "What was the theme of Super Bowl 50?",
+        "What was the storyline of Super Bowl 50?",
+        "What was the premise of Super Bowl 50?"
+      ]
+    },
+    {
+      "question": "What day was the game played on?",
+      "rules": [
+        "What day was the game played on?",
+        "Regarding what day was the game played on?"
+      ],
+      "flan-t5-small": [
+        "What day was the game played on?"
+      ],
+      "chatgpt_paraphraser_on_T5_base": [
+        "What day was the game played on?",
+        "What was the date of the game?",
+        "What was the day of the game?"
+      ]
+    },
+    {
+      "question": "What is the AFC short for?",
+      "rules": [
+        "What is the AFC short for?",
+        "the AFC short for definition?",
+        "Regarding what is the AFC short for?"
+      ],
+      "flan-t5-small": [
+        "What is the AFC short for?"
+      ],
+      "chatgpt_paraphraser_on_T5_base": [
+        "What is the AFC short for?",
+        "What does the acronym AFC stand for?",
+        "What does the AFC abbreviation stand for?"
+      ]
+    },
+    {
+      "question": "What was the theme of Super Bowl 50?",
+      "rules": [
+        "What was the theme of Super Bowl 50?",
+        "Regarding what was the theme of Super Bowl 50?"
+      ],
+      "flan-t5-small": [
+        "What was the theme of Super Bowl 50?"
+      ],
+      "chatgpt_paraphraser_on_T5_base": [
+        "What was the theme of Super Bowl 50?",
+        "What was the storyline of Super Bowl 50?",
+        "What was the premise of Super Bowl 50?"
+      ]
+    },
+    {
+      "question": "What does AFC stand for?",
+      "rules": [
+        "What does AFC stand for?",
+        "Regarding what does AFC stand for?"
+      ],
+      "flan-t5-small": [
+        "What does AFC stand for?"
+      ],
+      "chatgpt_paraphraser_on_T5_base": [
+        "What does AFC stand for?",
+        "What is the meaning of AFC?",
+        "What is the definition of AFC?"
+      ]
+    }
+  ]
+}

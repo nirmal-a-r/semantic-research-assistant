@@ -1,0 +1,114 @@
+﻿[21:56:00] device cuda, confirm stage, n=500
+[21:56:11] 20958 passages, 500 questions
+[21:56:12] 23288 chunks
+[21:56:12] building BM25 (passages)
+[21:56:13] encoding with sentence-transformers/all-MiniLM-L6-v2
+python.exe : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher 
+rate limits and faster downloads.
+At line:1 char:504
++ ... LE_XET="1"; & $py -u scripts/sweep_retrieval.py --stage confirm --n 5 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4489.06it/s]
+[21:56:46]   indexed 20958 vectors (dim 384) in 33s
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4143.36it/s]
+[21:56:49] running all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single
+Traceback (most recent call last):
+  File "C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\scripts\sweep_retrieval.py", line 195, in 
+<module>
+    
+  File "C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\scripts\sweep_retrieval.py", line 183, in main
+    variants_fn = (lambda q: generate_query_variants(q, n=3)) if cfg["mq"] else (lambda q: [q])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\scripts\sweep_retrieval.py", line 78, in 
+run_config
+    rankings.append(dense.search(v, top_k=cfg["candidates"]))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\scripts\sweep_retrieval.py", line 64, in search
+    q = self.encoder.encode([QUERY_PREFIX.get(self.model_name, "") + query],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 
+124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 
+2026\.venv\Lib\site-packages\sentence_transformers\util\decorators.py", line 46, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 
+2026\.venv\Lib\site-packages\sentence_transformers\sentence_transformer\model.py", line 972, in encode
+    embeddings = embeddings.cpu()
+                 ^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: an illegal memory access was encountered
+Search for `cudaErrorIllegalAddress' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for 
+more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+
+[2026-10-12 22:02:50] attempt 1/6: C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Scripts\python.exe -u scripts/sweep_retrieval.py --stage confirm --n 500 --out results/sweep_screen.csv
+[22:03:34] device cuda, confirm stage, n=500
+[22:03:38] 20958 passages, 500 questions
+[22:03:38] 23288 chunks
+[22:03:38] building BM25 (passages)
+[22:03:39] encoding with sentence-transformers/all-MiniLM-L6-v2
+python.exe : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher 
+rate limits and faster downloads.
+At line:1 char:561
++ ... ents:True"; & $py -u scripts/supervise.py --attempts 6 --delay 30 --l ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3105.62it/s]
+[22:04:12]   indexed 20958 vectors (dim 384) in 33s
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 3744.05it/s]
+[22:04:16] running all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single
+[22:05:44]   all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single: R@10 97.60  R@20 97.80  MRR 82.40  NDCG 86.19  176 ms/q
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2767.34it/s]
+[22:05:52] running all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c50|r30|passage|single
+Traceback (most recent call last):
+  File "C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\scripts\sweep_retrieval.py", line 197, in 
+<module>
+    main()
+  File "C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\scripts\sweep_retrieval.py", line 185, in main
+    metrics = run_config(cfg, eval_pairs, bm25_cache[cfg["chunked"]], dense_cache[key],
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\scripts\sweep_retrieval.py", line 82, in 
+run_config
+    scores = cross_encoder.predict(pairs, show_progress_bar=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 
+124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 
+2026\.venv\Lib\site-packages\sentence_transformers\util\decorators.py", line 46, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 
+2026\.venv\Lib\site-packages\sentence_transformers\util\decorators.py", line 203, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\scien\OneDrive\Documents\Hacktober 
+2026\.venv\Lib\site-packages\sentence_transformers\cross_encoder\model.py", line 744, in predict
+    pred_scores = np.asarray([score.cpu().detach().float().numpy() for score in pred_scores])
+                              ^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more 
+information.
+
+[2026-10-12 22:06:13] attempt 1 exited 1 after 3.4 min
+[2026-10-12 22:06:43] attempt 2/6: C:\Users\scien\OneDrive\Documents\Hacktober 2026\.venv\Scripts\python.exe -u scripts/sweep_retrieval.py --stage confirm --n 500 --out results/sweep_screen.csv
+[22:06:45] resuming: 1 configurations already done

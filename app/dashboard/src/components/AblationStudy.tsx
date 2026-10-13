@@ -37,14 +37,15 @@ export default function AblationStudy() {
     ...Object.fromEntries(METRICS.map((m) => [m, r[m]])),
   }));
 
-  // Radar: BM25 only vs Complete Pipeline
+  // Radar: BM25 only vs the strongest configuration measured
   const bm25Row = rows[0] || { "Recall@10": 86.15, "Recall@20": 89.6, MRR: 69.49, "NDCG@10": 73.39 };
-  const completeRow = rows[rows.length - 1] || bm25Row;
+  const bestRow = rows.reduce((best, r) => (r["Recall@10"] >= best["Recall@10"] ? r : best), rows[0] || bm25Row);
+  const bestName = bestRow.name || "Complete Pipeline";
 
   const radarData = METRICS.map((m) => ({
     metric: m,
     "BM25 only": bm25Row[m],
-    "Complete Pipeline": completeRow[m],
+    [bestName]: bestRow[m],
   }));
 
   // Best value per metric
@@ -62,11 +63,14 @@ export default function AblationStudy() {
             Progressive Ablation Study
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ color: "var(--text-primary)" }}>
-            7-Stage Retrieval Ablation
+            Retrieval Ablation
           </h2>
           <p className="text-base mb-10 max-w-2xl" style={{ color: "var(--text-secondary)" }}>
-            Every enhancement is tested incrementally against 4 retrieval metrics to isolate each contribution.
-            Real numbers from <span className="font-mono text-sm" style={{ color: "var(--accent-cyan)" }}>results/retrieval_progressive.csv</span>.
+            Every enhancement is tested incrementally against 4 retrieval metrics to isolate each contribution,
+            on the same 2,000 development questions. Real numbers from{" "}
+            <span className="font-mono text-sm" style={{ color: "var(--accent-cyan)" }}>results/retrieval_progressive.csv</span>
+            {" "}and the later sweeps in{" "}
+            <span className="font-mono text-sm" style={{ color: "var(--accent-cyan)" }}>results/sweep_*.csv</span>.
           </p>
         </motion.div>
 
@@ -101,7 +105,7 @@ export default function AblationStudy() {
               viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.15 }}
               className="glass-card rounded-2xl p-6 flex-1" style={{ borderColor: "var(--border-subtle)" }}>
               <h3 className="text-base font-semibold mb-1" style={{ color: "var(--text-primary)" }}>
-                BM25-only vs Complete Pipeline
+                BM25-only vs {bestName}
               </h3>
               <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>Radar comparison showing improvement across all metrics</p>
               <ResponsiveContainer width="100%" height={280}>
@@ -109,7 +113,7 @@ export default function AblationStudy() {
                   <PolarGrid stroke="rgba(255,255,255,0.08)" />
                   <PolarAngleAxis dataKey="metric" tick={{ fill: "rgba(240,244,255,0.6)", fontSize: 11 }} />
                   <Radar name="BM25 only" dataKey="BM25 only" stroke="#F59E0B" fill="#F59E0B" fillOpacity={0.12} strokeWidth={1.5} />
-                  <Radar name="Complete Pipeline" dataKey="Complete Pipeline" stroke="#22D3EE" fill="#22D3EE" fillOpacity={0.15} strokeWidth={2} />
+                  <Radar name={bestName} dataKey={bestName} stroke="#22D3EE" fill="#22D3EE" fillOpacity={0.15} strokeWidth={2} />
                   <Legend wrapperStyle={{ fontSize: 12 }} />
                 </RadarChart>
               </ResponsiveContainer>
@@ -135,9 +139,9 @@ export default function AblationStudy() {
                   </thead>
                   <tbody>
                     {rows.map((r) => (
-                      <tr key={r.name} style={r.name === "Complete Pipeline" ? { background: "rgba(34,211,238,0.05)" } : {}}>
+                      <tr key={r.name} style={r.name === bestName ? { background: "rgba(34,211,238,0.05)" } : {}}>
                         <td className="text-left" style={{ color: "var(--text-secondary)", fontFamily: "monospace", fontSize: "0.75rem" }}>
-                          {r.name === "Complete Pipeline"
+                          {r.name === bestName
                             ? <span style={{ color: "var(--accent-cyan)" }}>★ {r.name}</span>
                             : r.name}
                         </td>

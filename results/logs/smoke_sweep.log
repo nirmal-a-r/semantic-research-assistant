@@ -1,0 +1,23 @@
+﻿[21:53:11] device cuda, confirm stage, n=100
+[21:53:16] 20958 passages, 100 questions
+[21:53:16] 23288 chunks
+[21:53:16] building BM25 (passages)
+[21:53:18] encoding with sentence-transformers/all-MiniLM-L6-v2
+python.exe : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher 
+rate limits and faster downloads.
+At line:1 char:504
++ ... LE_XET="1"; & $py -u scripts/sweep_retrieval.py --stage confirm --n 1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5009.55it/s]
+[21:53:51]   indexed 20958 vectors (dim 384) in 33s
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4764.71it/s]
+[21:53:55] running all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single
+[21:54:12]   all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single: R@10 99.00  R@20 99.00  MRR 74.76  NDCG 80.84  162 ms/q
+[21:54:12] sweep complete: 1 new configurations -> C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\results\_smoke_sweep.csv

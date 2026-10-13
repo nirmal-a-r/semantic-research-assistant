@@ -37,3 +37,13 @@ Thumbs.db
 
 # results/ is intentionally NOT ignored - small files, and the single source of
 # truth that scripts/build_dashboard_data.py turns into the deployed dashboard.
+
+# LaTeX build artefacts (main.bbl is kept so the PDF builds without bibtex)
+report/*.aux
+report/*.log
+report/*.out
+report/*.blg
+report/*.synctex.gz
+
+# Local dev server log
+app/dashboard/dev.log

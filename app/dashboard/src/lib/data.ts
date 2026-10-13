@@ -213,9 +213,13 @@ export function getAblationRows(data?: ProjectData): RetrievalChartEntry[] {
     ];
   }
   const map = new Map(data.retrieval_chart.map((r) => [r.name, r]));
-  return ABLATION_ORDER
+  const published = ABLATION_ORDER
     .map((name) => map.get(name))
     .filter((r): r is RetrievalChartEntry => r !== undefined);
+  // Configurations measured after the original ablation keep their order from the JSON.
+  const canonical = new Set<string>(ABLATION_ORDER as readonly string[]);
+  const later = data.retrieval_chart.filter((r) => !canonical.has(r.name));
+  return [...published, ...later];
 }
 
 export function getQAModelRows(data?: ProjectData): QAModelEntry[] {

@@ -1,0 +1,33 @@
+[2026-10-12 22:06:49] === overnight run started ===
+[2026-10-12 22:06:49] prefetch: attempt 1/3
+[2026-10-12 22:06:50] === overnight run started ===
+[2026-10-12 22:06:50] prefetch: attempt 1/3
+[2026-10-12 22:07:20] === overnight run started ===
+[2026-10-12 22:07:20] prefetch: attempt 1/3
+[2026-10-12 22:13:03] === overnight run started ===
+[2026-10-12 22:13:03] prefetch: attempt 1/3
+[2026-10-12 22:43:52] === overnight run started ===
+[2026-10-12 22:43:52] prefetch: attempt 1/3
+[2026-10-12 23:06:39] prefetch: done in 22.8 min
+[2026-10-12 23:06:39] multiquery: attempt 1/3
+[2026-10-12 23:35:53] multiquery: done in 29.2 min
+[2026-10-12 23:35:54] sweep-screen: attempt 1/4
+[2026-10-12 23:58:32] sweep-screen: done in 22.6 min
+[2026-10-12 23:58:34] confirm stage: best screened config is all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single
+[2026-10-12 23:58:34] sweep-confirm: attempt 1/4
+[2026-10-13 00:38:51] sweep-confirm: done in 40.3 min
+[2026-10-13 00:38:54] train-reader: attempt 1/4
+[2026-10-13 00:46:59] train-reader: exit 1 after 8.1 min
+[2026-10-13 00:47:59] train-reader: attempt 2/4
+[2026-10-13 02:01:01] train-reader: done in 73.0 min
+[2026-10-13 02:01:02] end-to-end: attempt 1/3
+[2026-10-13 03:22:08] === phase 2 started ===
+[2026-10-13 03:22:08] end-to-end: attempt 1/3
+[2026-10-13 03:24:49] end-to-end: done in 2.7 min
+[2026-10-13 03:24:50] sweep-l12: attempt 1/3
+[2026-10-13 03:25:51] sweep-l12: exit 1 after 1.0 min
+[2026-10-13 03:26:11] sweep-l12: attempt 2/3
+[2026-10-13 04:04:53] sweep-l12: done in 38.7 min
+[2026-10-13 04:04:54] multiquery-v2: attempt 1/3
+[2026-10-13 04:38:30] multiquery-v2: done in 33.6 min
+[2026-10-13 04:38:32] === phase 2 finished ===

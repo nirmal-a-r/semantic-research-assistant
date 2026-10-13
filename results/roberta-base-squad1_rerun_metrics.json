@@ -1,0 +1,12 @@
+{
+  "run_name": "roberta-base-squad1",
+  "base_model": "roberta-base",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "epochs": 3,
+  "effective_batch": 32,
+  "train_hours": 1.185,
+  "exact_match": 85.37369914853359,
+  "f1": 91.82843566208179,
+  "n_eval": 10570,
+  "generated_at": "2026-10-13T02:00:59"
+}

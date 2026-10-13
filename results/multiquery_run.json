@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-10-12T23:35:52",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.14.1+cu126",
+  "n_questions": 2000,
+  "corpus_passages": 20958,
+  "config": {
+    "candidate_k": 50,
+    "rerank_k": 30,
+    "eval_top_k": 20,
+    "max_variants": 3,
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "cross_encoder": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "t5_model": "google/flan-t5-small"
+  },
+  "results": {
+    "+ Re-ranking (no multi-query)": {
+      "Recall@10": 96.25,
+      "Recall@20": 96.65,
+      "MRR": 85.2524128853173,
+      "NDCG@10": 87.96714973263339,
+      "retrieval_ms_per_question": 177.93929195404053,
+      "retrieval_total_s": 355.87858390808105,
+      "variant_gen_ms_per_question": 0.0,
+      "mean_variants": 1.0,
+      "ms_per_question": 177.93929195404053
+    },
+    "+ Multi-query (rules)": {
+      "Recall@10": 96.25,
+      "Recall@20": 96.7,
+      "MRR": 85.18800000652942,
+      "NDCG@10": 87.91451435864998,
+      "retrieval_ms_per_question": 336.8936161994934,
+      "retrieval_total_s": 673.7872323989868,
+      "variant_gen_ms_per_question": 0.0016911029815673828,
+      "mean_variants": 2.2315,
+      "ms_per_question": 336.895307302475
+    },
+    "+ Multi-query (FLAN-T5)": {
+      "Recall@10": 95.0,
+      "Recall@20": 95.6,
+      "MRR": 84.52732885170386,
+      "NDCG@10": 87.10031037116296,
+      "retrieval_ms_per_question": 272.639857172966,
+      "retrieval_total_s": 545.279714345932,
+      "variant_gen_ms_per_question": 52.163259506225586,
+      "mean_variants": 2.2635,
+      "ms_per_question": 324.8031166791916
+    }
+  },
+  "variant_examples": [
+    {
+      "question": "Which NFL team represented the AFC at Super Bowl 50?",
+      "rules": [
+        "Which NFL team represented the AFC at Super Bowl 50?",
+        "Regarding which NFL team represented the AFC at Super Bowl 50?"
+      ],
+      "t5": [
+        "Which NFL team represented the AFC at Super Bowl 50?",
+        "nfl nfl nfl nfl nfl nfl nfl nfl?"
+      ]
+    },
+    {
+      "question": "Which NFL team represented the NFC at Super Bowl 50?",
+      "rules": [
+        "Which NFL team represented the NFC at Super Bowl 50?",
+        "Regarding which NFL team represented the NFC at Super Bowl 50?"
+      ],
+      "t5": [
+        "Which NFL team represented the NFC at Super Bowl 50?",
+        "nfl nfl nfl nfl nfl nfl nfl nfl?"
+      ]
+    },
+    {
+      "question": "Where did Super Bowl 50 take place?",
+      "rules": [
+        "Where did Super Bowl 50 take place?",
+        "Regarding where did Super Bowl 50 take place?"
+      ],
+      "t5": [
+        "Where did Super Bowl 50 take place?",
+        "Super Bowl 50?"
+      ]
+    },
+    {
+      "question": "Which NFL team won Super Bowl 50?",
+      "rules": [
+        "Which NFL team won Super Bowl 50?",
+        "Regarding which NFL team won Super Bowl 50?"
+      ],
+      "t5": [
+        "Which NFL team won Super Bowl 50?",
+        "nfl nfl nfl nfl nfl nfl nfl nfl?"
+      ]
+    },
+    {
+      "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+      "rules": [
+        "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+        "Regarding what color was used to emphasize the 50th anniversary of the Super Bowl?"
+      ],
+      "t5": [
+        "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+        "Color was used to emphasize the 50th anniversary of the Super Bowl.?"
+      ]
+    },
+    {
+      "question": "What was the theme of Super Bowl 50?",
+      "rules": [
+        "What was the theme of Super Bowl 50?",
+        "Regarding what was the theme of Super Bowl 50?"
+      ],
+      "t5": [
+        "What was the theme of Super Bowl 50?",
+        "super bowl 50?",
+        "What is the theme of Super Bowl 50?"
+      ]
+    },
+    {
+      "question": "What day was the game played on?",
+      "rules": [
+        "What day was the game played on?",
+        "Regarding what day was the game played on?"
+      ],
+      "t5": [
+        "What day was the game played on?",
+        "day of the game?"
+      ]
+    },
+    {
+      "question": "What is the AFC short for?",
+      "rules": [
+        "What is the AFC short for?",
+        "the AFC short for definition?",
+        "Regarding what is the AFC short for?"
+      ],
+      "t5": [
+        "What is the AFC short for?",
+        "A.F.C.?",
+        "AFC short for?"
+      ]
+    },
+    {
+      "question": "What was the theme of Super Bowl 50?",
+      "rules": [
+        "What was the theme of Super Bowl 50?",
+        "Regarding what was the theme of Super Bowl 50?"
+      ],
+      "t5": [
+        "What was the theme of Super Bowl 50?",
+        "super bowl 50?",
+        "What is the theme of Super Bowl 50?"
+      ]
+    },
+    {
+      "question": "What does AFC stand for?",
+      "rules": [
+        "What does AFC stand for?",
+        "Regarding what does AFC stand for?"
+      ],
+      "t5": [
+        "What does AFC stand for?",
+        "AFC (football) AFC (football) is a professional football team based in the United States.?",
+        "AFC is a football club in the Football League.?"
+      ]
+    }
+  ]
+}

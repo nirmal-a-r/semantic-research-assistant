@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-10-13T04:47:54",
+  "checkpoint": "models/roberta-base-squad1",
+  "n_questions": 2000,
+  "argmax": {
+    "exact_match": 86.8,
+    "f1": 92.00795528181747,
+    "ms_per_question": 8.995587825775146
+  },
+  "joint": {
+    "exact_match": 87.45,
+    "f1": 92.78373120615893,
+    "ms_per_question": 16.24978733062744
+  },
+  "changed": 26
+}

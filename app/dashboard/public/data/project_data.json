@@ -1,20 +1,20 @@
 {
   "_meta": {
-    "generated_at": "2026-08-16T15:06:52",
+    "generated_at": "2026-10-13T09:43:48",
     "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
     "pytorch": "2.12.0.dev20260408+cu128",
     "cuda": "12.8",
     "smoke_test": false,
-    "run_date": "2026-08-16 15:06",
+    "run_date": "2026-10-13 09:43",
     "source": "results/ (notebook + full fine-tuning run)"
   },
   "hero": {
     "best_em_gold": 85.38,
     "best_f1_gold": 91.74,
-    "best_em_e2e": 71.0,
-    "best_f1_e2e": 72.34,
+    "best_em_e2e": 77.2,
+    "best_f1_e2e": 80.8,
     "retrieval_recall": 95.95,
-    "retrieval_recall_best": 96.25,
+    "retrieval_recall_best": 97.5,
     "retrieval_mrr": 85.2,
     "corpus_passages": 20958,
     "train_examples": 87599,
@@ -76,6 +76,27 @@
       "Recall@20": 96.45,
       "MRR": 85.2,
       "NDCG@10": 87.31
+    },
+    {
+      "name": "+ Deeper pool (100/50)",
+      "Recall@10": 96.9,
+      "Recall@20": 97.9,
+      "MRR": 85.44,
+      "NDCG@10": 88.23
+    },
+    {
+      "name": "+ L12 re-ranker",
+      "Recall@10": 97.25,
+      "Recall@20": 97.85,
+      "MRR": 86.52,
+      "NDCG@10": 89.17
+    },
+    {
+      "name": "Best: E5 + L12 + depth",
+      "Recall@10": 97.5,
+      "Recall@20": 98.35,
+      "MRR": 86.79,
+      "NDCG@10": 89.42
     }
   ],
   "qa_models": [
@@ -3264,6 +3285,6 @@
     "epochs": 3,
     "effective_batch": 32,
     "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
-    "run_date": "2026-08-16 15:06"
+    "run_date": "2026-10-13 09:43"
   }
 }

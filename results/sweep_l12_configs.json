@@ -1,0 +1,6 @@
+[
+ {"encoder": "sentence-transformers/all-MiniLM-L6-v2", "cross": "cross-encoder/ms-marco-MiniLM-L12-v2", "candidates": 50, "rerank_k": 30, "chunked": false, "mq": false},
+ {"encoder": "sentence-transformers/all-MiniLM-L6-v2", "cross": "cross-encoder/ms-marco-MiniLM-L12-v2", "candidates": 100, "rerank_k": 50, "chunked": false, "mq": false},
+ {"encoder": "intfloat/e5-base-v2", "cross": "cross-encoder/ms-marco-MiniLM-L12-v2", "candidates": 100, "rerank_k": 50, "chunked": false, "mq": false},
+ {"encoder": "sentence-transformers/all-MiniLM-L6-v2", "cross": "cross-encoder/ms-marco-MiniLM-L12-v2", "candidates": 100, "rerank_k": 50, "chunked": true, "dedup": true, "mq": false}
+]

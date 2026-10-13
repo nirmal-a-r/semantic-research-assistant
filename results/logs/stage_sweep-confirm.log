@@ -1,0 +1,36 @@
+
+===== sweep-confirm attempt 1 at 23:58:34 =====
+[23:58:47] device cuda, confirm stage, n=2000
+[23:58:50] 20958 passages, 2000 questions
+[23:58:51] 23288 chunks
+[23:58:51] building BM25 (passages)
+[23:58:52] encoding with sentence-transformers/all-MiniLM-L6-v2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4885.32it/s]
+[23:59:28]   indexed 20958 vectors (dim 384) in 36s
+'[WinError 10061] No connection could be made because the target machine actively refused it' thrown while requesting HEAD https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/resolve/main/./modules.json
+Retrying in 1s [Retry 1/5].
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 4767.91it/s]
+[00:00:10] running all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single
+[00:05:38]   all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single: R@10 96.25  R@20 96.65  MRR 85.25  NDCG 87.97  164 ms/q
+[00:05:38] running all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c100|r50|passage|single
+[00:12:08]   all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c100|r50|passage|single: R@10 96.90  R@20 97.90  MRR 85.44  NDCG 88.23  195 ms/q
+[00:12:08] building BM25 (chunks)
+[00:12:09] encoding with sentence-transformers/all-MiniLM-L6-v2
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4379.30it/s]
+[00:12:47]   indexed 23288 vectors (dim 384) in 38s
+[00:12:47] running all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|chunk|single
+[00:18:17]   all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|chunk|single: R@10 96.00  R@20 96.45  MRR 85.20  NDCG 87.32  165 ms/q
+[00:18:17] running all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|chunk|single|dedup
+[00:23:37]   all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|chunk|single|dedup: R@10 96.10  R@20 96.45  MRR 85.26  NDCG 87.95  160 ms/q
+[00:23:37] running all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|mq
+[00:33:25]   all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|mq: R@10 96.25  R@20 96.70  MRR 85.19  NDCG 87.91  294 ms/q
+[00:33:25] running all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single
+[00:38:50]   all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c50|r30|passage|single: R@10 96.25  R@20 96.65  MRR 85.25  NDCG 87.97  163 ms/q
+[00:38:50] sweep complete: 6 new configurations -> C:\Users\scien\OneDrive\Documents\Sem 5\Text Analytics\project\results\sweep_confirm.csv
