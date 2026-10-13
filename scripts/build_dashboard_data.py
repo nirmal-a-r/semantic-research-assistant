@@ -312,6 +312,49 @@ def qualitative() -> list:
         } for r in csv.DictReader(f)]
 
 
+# Configurations measured on 12–13 October 2026 and shown alongside the published
+# ablation rows. Keys are the config strings written by scripts/sweep_retrieval.py.
+OVERNIGHT_ROWS = [
+    ("all-MiniLM-L6-v2|ms-marco-MiniLM-L6-v2|c100|r50|passage|single", "+ Deeper pool (100/50)"),
+    ("all-MiniLM-L6-v2|ms-marco-MiniLM-L12-v2|c100|r50|passage|single", "+ L12 re-ranker"),
+    ("e5-base-v2|ms-marco-MiniLM-L12-v2|c100|r50|passage|single", "Best: E5 + L12 + depth"),
+]
+
+
+def overnight_retrieval() -> list:
+    """Rows from the October sweeps, measured on the same 2,000 dev questions."""
+    import csv
+    measured = {}
+    for path in (RESULTS / "sweep_confirm.csv", RESULTS / "sweep_l12.csv"):
+        if not path.exists():
+            continue
+        with path.open(encoding="utf-8") as fh:
+            reader = csv.reader(fh)
+            header = next(reader, None)
+            if not header:
+                continue
+            for raw in reader:
+                if len(raw) < len(header):
+                    continue
+                row = dict(zip(header, raw))
+                if row.get("n_questions") == "2000":
+                    measured[row["config"]] = row
+
+    out = []
+    for config, label in OVERNIGHT_ROWS:
+        row = measured.get(config)
+        if not row:
+            continue
+        out.append({
+            "name": label,
+            "Recall@10": round(float(row["Recall@10"]), 2),
+            "Recall@20": round(float(row["Recall@20"]), 2),
+            "MRR": round(float(row["MRR"]), 2),
+            "NDCG@10": round(float(row["NDCG@10"]), 2),
+        })
+    return out
+
+
 def build() -> dict:
     summary = _read_json(RESULTS / "summary.json", {})
     detailed = _read_json(RESULTS / "detailed_eval.json", {})
@@ -330,6 +373,8 @@ def build() -> dict:
         "MRR": _pct(retr.get("MRR", {}).get(cfg)),
         "NDCG@10": _pct(retr.get("NDCG@10", {}).get(cfg)),
     } for cfg in ABLATION_ORDER if cfg in retr.get("Recall@10", {})]
+
+    retrieval_chart += overnight_retrieval()
 
     qa_models = []
     for key, (disp, _, params) in MODELS.items():
@@ -350,6 +395,11 @@ def build() -> dict:
     complete = next((r for r in retrieval_chart if r["name"] == "Complete Pipeline"), None)
     best_recall = max((r["Recall@10"] for r in retrieval_chart), default=None)
 
+    # End-to-end with the best retrieval stack and top-K reading (October run).
+    best_e2e = _read_json(RESULTS / "end_to_end_best.json", {})
+    best_em_e2e = round(best_e2e["topk"]["exact_match"], 2) if best_e2e else best_row["em_e2e"]
+    best_f1_e2e = round(best_e2e["topk"]["f1"], 2) if best_e2e else best_row["f1_e2e"]
+
     training_log = (RESULTS / "training_log.md").read_text(encoding="utf-8") if (RESULTS / "training_log.md").exists() else ""
     gpu = detailed.get("device") or "NVIDIA GeForce RTX 5060 Laptop GPU"
 
@@ -366,8 +416,8 @@ def build() -> dict:
         "hero": {
             "best_em_gold": best_row["em_gold"],
             "best_f1_gold": best_row["f1_gold"],
-            "best_em_e2e": best_row["em_e2e"],
-            "best_f1_e2e": best_row["f1_e2e"],
+            "best_em_e2e": best_em_e2e,
+            "best_f1_e2e": best_f1_e2e,
             "retrieval_recall": complete["Recall@10"] if complete else best_recall,
             "retrieval_recall_best": best_recall,
             "retrieval_mrr": complete["MRR"] if complete else None,
